@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HCJMRI</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="CSS/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="icon" type="img" href="img/HCJ Logo.jpg">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .navbar {
+      position: sticky !important;
+      top: 0;
+      z-index: 1030;
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .navbar.scrolled {
+      background-color: #fff !important;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Hero Section with Icon and Scrolling Text -->
+  <!-- <section id="home" class="hero-section d-flex align-items-center justify-content-center">
+    <div class="scrolling-text-wrapper">
+      <div class="scrolling-text">
+        <i class="fas fa-hospital"></i>
+        Welcome to Hirabai Cowasji Jehangir Medical Research Institute
+      </div>
+    </div>
+  </section> -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/HCJ_trnsparent Logo.png" alt="HCJMRI Logo">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown">About Us</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="about hcjmri.html">ABOUT HCJMRI</a></li>
+              <li><a class="dropdown-item" href="director mesage.html">DIRECTOR MESSAGE</a></li>
+              <li><a class="dropdown-item" href="commitee.html">COMMITTEE</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown">Projects</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="sweetling page.html">SWEETLINGS</a></li>
+              <li><a class="dropdown-item" href="rihan page.html">RIHAN</a></li>
+              <li><a class="dropdown-item" href="rihan page.html">ANKUR</a></li>
+              <li><a class="dropdown-item" href="yuvaan project.html">YUVAAN COHORT</a></li>
+              <li><a class="dropdown-item" href="HCJMRI COE for Type 1 Diabetes.html">HCJMRI COE for Type 1 Diabetes</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Academics</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="research.html">RESEARCH</a></li>
+              <li><a class="dropdown-item" href="publication.html">PUBLICATION</a></li>
+              <li><a class="dropdown-item" href="events.html">EVENTS</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Tools</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="pwg calculator.html">Gestational Weight Gain Calculator</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link active" href="Success Stories.html">Success Stories</a></li>
+          <li class="nav-item"><a class="nav-link active" href="awards.html">Awards</a></li>
+          <li class="nav-item"><a class="nav-link active" href="career with us.html">Career with us</a></li>
+          <li class="nav-item"><a class="nav-link active" href="donation appeals.html">Donation Appeals</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact us.html">Contact Us</a></li>
+        </ul>
+        <button class="social-toggle-btn btn" onclick="toggleSocialSidebar()">
+          <h5>Social Media</h5>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div id="socialSidebar" class="social-sidebar right">
+    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+  </div>
+
+  <!-- Director Message Content remains unchanged -->
+
+  <section class="about-section py-5" id="about">
+    <h2 class="Director-title">
+      <i class="fas fa-star"></i>
+      Director's Message
+    </h2>
+    <div class="container pt-5">
+      <!-- Image + Intro text side by side -->
+      <div class="row align-items-center">
+        <!-- Left side: Round Image -->
+        <div class="col-md-4 d-flex justify-content-center mb-4 mb-md-0">
+          <div class="director-img-wrapper">
+            <img src="img/8.jpg" alt="Director" class="img-fluid director-round-img-1">
+          </div>
+        </div>
+        <!-- Right side: Name & designation (normal text, no bold/underline) -->
+        <div class="col-md-8 d-flex flex-column justify-content-center">
+          <p class="director-normal-text mb-0" style="font-size: 25px;">
+            Dr.Uma Divate (Director)
+          </p>
+        </div>
+      </div>
+      <!-- Full-width Director's message -->
+      <div class="row mt-4">
+        <div class="col-12">
+          <p class="director-full-width">
+            Established in 1995, the Hirabai Cowasji Jehangir Medical Research Institute (HCJMRI) was founded with a
+            vision to advance scientific research and enhance the quality of life, particularly for children and
+            families. Situated within the Jehangir Hospital campus in Pune, HCJMRI functions as a sister organization to
+            the hospital, with a dedicated focus on improving child health and well-being.<br>
+            <br>
+            HCJMRI is a multidisciplinary research institute recognized by the Directorate of Scientific and Industrial
+            Research (DSIR), Government of India. Our key areas of research and intervention include Nutrition, Growth
+            and Endocrine Disorders in Children, Type 1 Diabetes, Maternal and Child Health, Osteoporosis, and other
+            Non-Communicable Diseases.<br>
+            <br>
+            As part of our commitment to social impact, HCJMRI offers extensive support to children and families
+            affected by Type 1 Diabetes. This includes free access to insulin, blood glucose monitoring strips, and
+            glucometers, along with comprehensive diabetes education and continuous medical care. Our team also conducts
+            regular home and school visits to ensure families receive consistent guidance and assistance.<br>
+            <br>
+            Over the years, HCJMRI has emerged as a trusted leader in pediatric diabetes care, working to empower
+            families and improve long-term health outcomes. Our research and clinical initiatives are led by a team of
+            skilled professionals who remain responsive to the evolving healthcare needs of our community.<br>
+            <br>
+            Our efforts are made possible through the generous support of donors and partner organizations. Under the
+            guidance of our governing body and executive leadership, HCJMRI continues to make a lasting difference in
+            the lives of the children and families we serve.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+  <!-- Fotter Section Start Here -->
+
+  <footer class="site-footer">
+    <div class="footer-main">
+
+      <div class="footer-col footer-about">
+
+        <!-- <div class="footer-logo">
+          <img src="img/HCJ_trnsparent Logo.png" alt="HCJMRI Logo">
+        </div> -->
+
+        <p>
+          Hirabai Cowasji Jehangir Medical Research Institute<br>
+          Improving health through research and care.
+        </p>
+        <ul class="footer-contact">
+          <li><i class="fas fa-phone-alt"></i> 020-66811741 / 26057004</li>
+          <li><i class="fas fa-envelope"></i> hcjmri.jehangirpune@gmail.com</li>
+          <li><i class="fas fa-map-marker-alt"></i>Lower Ground Floor,
+Block V, Jehangir Hospital, 32 Sassoon Road, Pune</li>
+        </ul>
+      </div>
+      <!-- Column 2: Quick Links -->
+      <div class="footer-col footer-links">
+        <h5>Quick Links</h5>
+       <ul>
+          <li><a href="about hcjmri.html">About Us</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="publication.html">Publication</a></li>
+          <li><a href="donation appeals.html">Support Us</a></li>
+        </ul>
+      </div>
+      <!-- Column 3: Work Hours + Quote + Call -->
+      <div class="footer-col footer-hours">
+        <h5>Work Hours</h5>
+        <p><i class="fas fa-clock"></i> Mon – Sat: 9 AM – 5 PM</p>
+        <p>
+          “When a patient walks out holding a loved one's hand and wearing a smile, our purpose is fulfilled.”
+        </p>
+        <a href="contact us.html" class="footer-call-btn">Call Us Today</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Hirabai Cowasji Jehangir Medical Research Institute. All Rights Reserved.</p>
+      <p>
+        Designed by
+
+        <a href="https://github.com/priteshc-dev" target="_blank" rel="noopener">'Pritesh'</a>
+
+      </p>
+    </div>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <!-- Bootstrap Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Your custom script file -->
+  <script src="JavaScript/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HCJMRI</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="CSS/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="icon" type="img" href="img/HCJ Logo.jpg">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .navbar {
+      position: sticky !important;
+      top: 0;
+      z-index: 1030;
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .navbar.scrolled {
+      background-color: #fff !important;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- <section id="home" class="hero-section d-flex align-items-center justify-content-center">
+    <div class="scrolling-text-wrapper">
+      <div class="scrolling-text">
+        <i class="fas fa-hospital"></i>
+        Welcome to Hirabai Cowasji Jehangir Medical Research Institute
+      </div>
+    </div>
+  </section> -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/HCJ_trnsparent Logo.png" alt="HCJMRI Logo">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown">About Us</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="about hcjmri.html">ABOUT HCJMRI</a></li>
+              <li><a class="dropdown-item" href="director mesage.html">DIRECTOR MESSAGE</a></li>
+              <li><a class="dropdown-item" href="commitee.html">COMMITTEE</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown">Projects</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="sweetling page.html">SWEETLINGS</a></li>
+              <li><a class="dropdown-item" href="rihan page.html">RIHAN</a></li>
+              <li><a class="dropdown-item" href="ankur page.html">ANKUR</a></li>
+              <li><a class="dropdown-item" href="yuvaan project.html">YUVAAN COHORT</a></li>
+              <li><a class="dropdown-item" href="HCJMRI COE for Type 1 Diabetes.html">HCJMRI COE for Type 1 Diabetes</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Academics</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="research.html">RESEARCH</a></li>
+              <li><a class="dropdown-item" href="publication.html">PUBLICATION</a></li>
+              <li><a class="dropdown-item" href="events.html">EVENTS</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Tools</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="pwg calculator.html">Gestational Weight Gain Calculator</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link active" href="Success Stories.html">Success Stories</a></li>
+          <li class="nav-item"><a class="nav-link active" href="awards.html">Awards</a></li>
+          <li class="nav-item"><a class="nav-link active" href="career with us.html">Career with us</a></li>
+          <li class="nav-item"><a class="nav-link active" href="donation appeals.html">Donation Appeals</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact us.html">Contact Us</a></li>
+        </ul>
+        <button class="social-toggle-btn btn" onclick="toggleSocialSidebar()">
+          <h5>Social Media</h5>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div id="socialSidebar" class="social-sidebar right">
+    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+  </div>
+
+  <!-- Existing Research Sections Here (no changes needed in content) -->
+
+  <section class="research-section py-5" id="research">
+    <div class="container">
+      <!-- Title -->
+      <div class="section-header mb-4 text-center">
+        <h2 class="our-research-title">Our Research</h2>
+      </div>
+
+
+      <!-- Ongoing Research -->
+      <div class="research-block">
+        <h4 class="sub-heading">Ongoing Research</h4>
+        <div class="vertical-scroll-box counter-list">
+          <!-- Research entries here -->
+          <div class="research-entry">
+            <p>A randomized controlled trial with calcium and vitamin d supplementation to improve bone health status of
+              children and adolescents with type 1 diabetes.</p>
+          </div>
+          <div class="research-entry">
+            <p>A cross-sectional observational study of bone health in mothers with live birth before and after 18 years
+              of age.</p>
+          </div>
+          <div class="research-entry">
+            <p>A cross sectional study to assess bone health of slum dwelling adolescents.</p>
+          </div>
+          <div class="research-entry">
+            <p>A multicenter study of determinants of vitamin D status in urban and rural Indian school children.</p>
+          </div>
+          <div class="research-entry">
+            <p>Reference percentile curves for bone density by peripheral quantitative computed tomography machine
+              (pqct) in Indian children ages 6-18 years.</p>
+          </div>
+          <div class="research-entry">
+            <p>Studies in the influence of ecoregional and lifestyle variations on growth and body composition of Indian
+              children and adolescents.</p>
+          </div>
+          <div class="research-entry">
+            <p>Studies in inter relations of physical activity, nutrient intake and muscle function in rural Indian
+              children.</p>
+          </div>
+          <div class="research-entry">
+            <p>A study to determine gut microbial community structure in children with diabetes supplemented with milk
+              and vitamin d and controls.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Completed Research -->
+      <div class="research-block">
+        <h4 class="sub-heading">Completed Research</h4>
+        <div class="vertical-scroll-box counter-list">
+          <!-- Completed entries -->
+          <div class="research-entry">
+            <p>DXA and pQCT derived parameters in Indian children with Beta thalassemia major- a case controlled study
+              (2021).</p>
+          </div>
+          <div class="research-entry">
+            <p>Assessment of Bone Density by DXA in Poorly Controlled Children With β-Thalassemia: Correction for
+              Hepatic Iron (2021).</p>
+          </div>
+          <div class="research-entry">
+            <p>A study of Test Anxiety among School-Going Children and Adolescents, Factors Affecting and Impact on
+              Quality of Life: A Multicenter Study (2021).</p>
+          </div>
+          <div class="research-entry">
+            <p>Association of Trabecular Bone Score with pQCT derived trabecular bone density in Indian children with
+              type 1 diabetes and healthy controls (2020).</p>
+          </div>
+          <div class="research-entry">
+            <p>A study on Diabetes distress in Indian children with type 1 diabetes mellitus and their mothers (2020).
+            </p>
+          </div>
+          <div class="research-entry">
+            <p>A study on Growth charts in Indian girls with Turner Syndrome (2020).</p>
+          </div>
+          <div class="research-entry">
+            <p>Study of increased prevalence of fractures in inadequately transfused and chelated Indian children and
+              young adults with beta thalassemia major (2020)</p>
+          </div>
+          <div class="research-entry">
+            <p>A study to identify genetic variants in indian patients with congenital adrenal hyperplasia (2020).</p>
+          </div>
+          <div class="research-entry">
+            <p>Studies in metabolic interrelations of Vitamin D with cholesterol and statins in Indian adult men (2020).
+            </p>
+          </div>
+          <div class="research-entry">
+            <p>A cross sectional study of Cardiometabolic Risk in Pre- and Post-Menopausal Women with Special Reference
+              to Insulin Resistance (2020).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ... your existing .research-section content remains unchanged ... -->
+
+
+  <Section>
+
+    <div class="case-studies-section">
+      <div class="section-header">
+        <h2>Popular Case Studies</h2>
+        <div class="section-actions">
+          <a href="study-case-view-all.html" class="view-all">View All</a>
+          <button class="nav-button" onclick="scrollVideos(-1)">&#8249;</button>
+          <button class="nav-button" onclick="scrollVideos(1)">&#8250;</button>
+        </div>
+      </div>
+
+      <div class="video-carousel" id="videoCarousel">
+        <!-- video-1 -->
+        <div class="video-item">
+          <div class="video-card">
+            <video src="videos/Weight_older child.mp4" controls></video>
+          </div>
+          <div class="video-title">HCJMRI - Weight_older child</div>
+          <div class="video-overlay-protect"></div>
+        </div>
+
+        <!-- video-2 -->
+        <div class="video-item">
+          <div class="video-card">
+            <video src="videos/Height_older child.mp4" controls></video>
+          </div>
+          <div class="video-title">HCJMRI - Height_older child</div>
+        </div>
+
+        <!-- video-3 -->
+        <div class="video-item">
+          <div class="video-card">
+            <video src="videos/Infant weight.mp4" controls></video>
+          </div>
+          <div class="video-title">HCJMRI - Infant weight</div>
+        </div>
+
+        <!-- video-4 -->
+        <div class="video-item">
+          <div class="video-card">
+            <video src="videos/Head circumference in sitting position.mp4" controls></video>
+          </div>
+          <div class="video-title">HCJMRI - Head circumference in sitting position</div>
+        </div>
+
+        <!-- video- 5-->
+        <div class="video-item">
+          <div class="video-card">
+            <video src="videos/Head circumference in lying down position.mp4" controls></video>
+          </div>
+          <div class="video-title">HCJMRI - Head circumference in lying down position</div>
+        </div>
+
+        <!-- video-6 -->
+        <div class="video-item">
+          <div class="video-card">
+            <video src="videos/Recumbent length.mp4" controls></video>
+          </div>
+          <div class="video-title">HCJMRI - Recumbent length</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Up Arrow Button after year button and collapse -->
+    <div class="up-arrow-container">
+      <button class="scroll-top-btn" onclick="scrollToResearchTop()" aria-label="Scroll to top">
+        &#8679;
+      </button>
+    </div>
+    </div>
+    <br>
+    <br>
+
+    <script>
+      const videos = document.querySelectorAll('video');
+      videos.forEach((video) => {
+        video.addEventListener('play', function () {
+          videos.forEach((otherVideo) => {
+            if (otherVideo !== video) {
+              otherVideo.pause();
+            }
+          });
+        });
+      });
+    </script>
+
+  </Section>
+
+  <!-------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+  <!-- Fotter Section Start Here -->
+
+  <footer class="site-footer">
+    <div class="footer-main">
+
+      <div class="footer-col footer-about">
+
+        <!-- <div class="footer-logo">
+          <img src="img/HCJ_trnsparent Logo.png" alt="HCJMRI Logo">
+        </div> -->
+
+        <p>
+          Hirabai Cowasji Jehangir Medical Research Institute<br>
+          Improving health through research and care.
+        </p>
+        <ul class="footer-contact">
+          <li><i class="fas fa-phone-alt"></i> 020-66811741 / 26057004</li>
+          <li><i class="fas fa-envelope"></i> hcjmri.jehangirpune@gmail.com</li>
+          <li><i class="fas fa-map-marker-alt"></i>Lower Ground Floor,
+            Block V, Jehangir Hospital, 32 Sassoon Road, Pune</li>
+        </ul>
+      </div>
+      <!-- Column 2: Quick Links -->
+      <div class="footer-col footer-links">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="about hcjmri.html">About Us</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="publication.html">Publication</a></li>
+          <li><a href="donation appeals.html">Support Us</a></li>
+        </ul>>
+      </div>
+      <!-- Column 3: Work Hours + Quote + Call -->
+      <div class="footer-col footer-hours">
+        <h5>Work Hours</h5>
+        <p><i class="fas fa-clock"></i> Mon – Sat: 9 AM – 5 PM</p>
+        <p>
+          “When a patient walks out holding a loved one's hand and wearing a smile, our purpose is fulfilled.”
+        </p>
+        <a href="contact us.html" class="footer-call-btn">Call Us Today</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Hirabai Cowasji Jehangir Medical Research Institute. All Rights Reserved.</p>
+      <p>
+        Designed by
+
+        <a href="https://github.com/priteshc-dev" target="_blank" rel="noopener">'Pritesh'</a>
+
+      </p>
+    </div>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+  <!-- Bootstrap Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Your custom script file -->
+  <script src="JavaScript/main.js"></script>
+
+  <script>
+    function scrollVideos(direction) {
+      const carousel = document.getElementById('videoCarousel');
+      const scrollAmount = 320; // adjust as per your card width
+      carousel.scrollBy({
+        left: scrollAmount * direction,
+        behavior: 'smooth'
+      });
+    }
+  </script>
+
+  <script>  // Timestamp updater
+    setInterval(() => {
+      const now = new Date();
+      document.getElementById("timestamp").innerText = now.toLocaleTimeString();
+    }, 1000);
+
+    function scrollToResearchTop() {
+      const researchsection = document.querySelector('.research-section');
+      if (researchsection) {
+        researchsection.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  </script>
+
+</body>
+
+</html>

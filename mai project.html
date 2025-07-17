@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HCJMRI</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="CSS/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="icon" type="img" href="img/HCJ Logo.jpg">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .navbar {
+      position: sticky !important;
+      top: 0;
+      z-index: 1030;
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .navbar.scrolled {
+      background-color: #fff !important;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Hero Section with Icon and Scrolling Text -->
+  <!-- <section id="home" class="hero-section d-flex align-items-center justify-content-center">
+    <div class="scrolling-text-wrapper">
+      <div class="scrolling-text">
+        <i class="fas fa-hospital"></i>
+        Welcome to Hirabai Cowasji Jehangir Medical Research Institute
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/HCJ_trnsparent Logo.png" alt="HCJMRI Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="about hcjmri.html">ABOUT HCJMRI</a></li>
+              <li><a class="dropdown-item" href="director mesage.html">DIRECTOR MESSAGE</a></li>
+              <li><a class="dropdown-item" href="commitee.html">COMMITTEE</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="sweetling page.html">SWEETLINGS</a></li>
+              <li><a class="dropdown-item" href="rihan page.html">RIHAN</a></li>
+              <li><a class="dropdown-item" href="mai project.html">MAI</a></li>
+              <li><a class="dropdown-item" href="ankur page.html">ANKUR</a></li>
+              <li><a class="dropdown-item" href="yuvaan project.html">YUVAAN COHORT</a></li>
+              <li><a class="dropdown-item" href="HCJMRI COE for Type 1 Diabetes.html">HCJMRI COE for Type 1 Diabetes</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Academics</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="research.html">RESEARCH</a></li>
+              <li><a class="dropdown-item" href="publication.html">PUBLICATION</a></li>
+              <li><a class="dropdown-item" href="events.html">EVENTS</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Tools</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="pwg calculator.html">Gestational Weight Gain Calculator</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link active" href="Success Stories.html">Success Stories</a></li>
+          <li class="nav-item"><a class="nav-link active" href="awards.html">Awards</a></li>
+          <li class="nav-item"><a class="nav-link active" href="career with us.html">Career with us</a></li>
+          <li class="nav-item"><a class="nav-link active" href="donation appeals.html">Donation Appeals</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact us.html">Contact Us</a></li>
+        </ul>
+
+        <div class="social-toggle-area">
+          <button class="social-toggle-btn btn" onclick="toggleSocialSidebar()">
+            <h5 class="mb-0">Social Media</h5>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div id="socialSidebar" class="social-sidebar right">
+    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+  </div>
+
+  <!-- Project Sweetling Regarding Page Section-->
+
+  <section class="about-section py-4" id="about">
+    <div class="container pt-4">
+      <div class="row justify-content-center">
+        <div class="col-md-0">
+          <h2 class="about-heading mb-4">
+            <i class="fas fa-users"></i> MAI
+          </h2>
+
+
+          <div class="container pt-4">
+            <div class="row">
+              <section class="fullscreen-image-section">
+                <div class="project-image-box">
+                  <img src="img/Mai Cover Photo.jpg" alt="About HCJMRI" class="fullscreen-image">
+                </div>
+              </section>
+
+              <p style="text-align: center; font-size: 25px;"><strong>Maternal and Infant Project </strong></p>
+              <p>The MAI Project is dedicated to improving maternal and child health in both rural and urban settings, with a special focus on underserved slum communities. Our efforts include monitoring gestational weight gain among pregnant women, assessing the use of maternal and child healthcare services, and studying infant and young child feeding (IYCF) practices. Through longitudinal and qualitative research, the project generates evidence to guide effective interventions and policies for healthier outcomes among mothers and children across diverse environments.</p>
+              <br>
+              <strong> Goals and Objectives:</strong>
+              <br>
+              <br>
+              <ul>
+                <li>● Address disparities in maternal and child health among vulnerable populations using a systems-based approach.</li>
+                <li>● Examine the relationships between food systems, healthcare access, and caregiving practices.</li>
+                <li>● Promote sustainable, gender-equitable solutions for maternal and child well-being, especially in the face of social and environmental changes.</li>
+                <li>● Map the current ecosystem of maternal and child health in and around Pune to identify gaps.</li>
+                <li>● Develop and implement targeted strategies based on gap analysis to drive impactful interventions.</li>
+              </ul>
+              <br>
+              <strong> Key Achievements (Till 2024):</strong>
+              <br>
+              <br>
+              <ul>
+                <li>● Launched longitudinal tracking of gestational weight gain among pregnant women in rural and urban slum areas, creating a valuable database on maternal nutrition.</li>
+                <li>● Documented patterns and barriers in the utilization of maternal and child healthcare services in underserved urban communities.</li>
+                <li>● Conducted qualitative research to understand perceptions, practices, and challenges related to maternal health, IYCF, and access to care.</li>
+                <li>● Investigated IYCF practices in slum settings through mixed-methods research to design culturally relevant interventions.</li>
+                <li>● Established collaborations with local health workers, community organizations, and academic partners to enhance community-based research and action.</li>
+              </ul>
+    
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Project Impact Section with Counter -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="row text-center justify-content-center">
+
+        <!-- Counter 1 -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+          <div class="stat-box">
+            <h3 class="counter" data-target="250">0</h3>
+            <p>Home Visits</p>
+          </div>
+        </div>
+
+        <!-- Counter 2 -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+          <div class="stat-box">
+            <h3 class="counter" data-target="120">0</h3>
+            <p>Centre Visits</p>
+          </div>
+        </div>
+
+        <!-- Counter 3 -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+          <div class="stat-box">
+            <h3 class="counter" data-target="60">0</h3>
+            <p>New Admission</p>
+          </div>
+        </div>
+
+        <!-- Counter 4 -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+          <div class="stat-box">
+            <h3 class="counter" data-target="60">0</h3>
+            <p>Follow-up Calls</p>
+          </div>
+        </div>
+
+        <!-- Counter 5 -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+          <div class="stat-box">
+            <h3 class="counter" data-target="90">0</h3>
+            <p>School Visits</p>
+          </div>
+        </div>
+
+        <!-- Counter 6 -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+          <div class="stat-box">
+            <h3 class="counter" data-target="75">0</h3>
+            <p>HbA1c Tests</p>
+          </div>
+        </div>
+
+        <!-- Counter 7 -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+          <div class="stat-box">
+            <h3 class="counter" data-target="75">0</h3>
+            <p>Eye Check-ups</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="where-we-work-section">
+    <div class="row where-we-work">
+      <div class="col text-center">
+        <h3 class="about-heading mb-4"> <i class="fas fa-map-marker-alt"></i> Where We Work</h3>
+      </div>
+    </div>
+    <div class="row work-locations">
+      <!-- Place 1 -->
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="location-card">
+          <img src="img/MAI-slums area map image.png" alt="Location 1" class="location-image" />
+          <h4>Pune</h4>
+          <p>Rural communities surrounding Pune and underserved urban slums within the city.</p>
+          <button class="btn btn-primary" onclick="showMap('pune')">See on the map</button>
+        </div>
+      </div>
+      
+      <!-- Add any Place -->
+    </div>
+    </div>
+
+    <!-- map view section -->
+    <div id="mapModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeMap()">&times;</span>
+        <iframe id="mapFrame" src="" width="100%" height="400" style="border:0;" allowfullscreen=""
+          loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Our Team Section Start -->
+  <section class="team-section">
+    <div class="row where-we-work">
+      <div class="col text-center">
+        <h3 class="about-heading mb-4"> <i class="fas fa-users"></i> Our Team </h3>
+        <h2 class="team-title"></h2>
+        <div class="team-grid">
+          <div class="team-card">
+            <img src="img/Team member img/Rubina Mandalik.png" alt="Member">
+            <div class="team-info">
+              <div class="team-name">Dr. Rubina Mandlik </div>
+              <div class="team-role">Project Manager</div>
+            </div>
+          </div>
+
+          <div class="team-card">
+            <img src="img/Profile pic.jpg" alt="Member">
+            <div class="team-info">
+              <div class="team-name">Ms. Pranjali Chandawad </div>
+              <div class="team-role">Research Assistant</div>
+            </div>
+          </div>
+
+          <div class="team-card">
+            <img src="img/Profile pic.jpg" alt="Member">
+            <div class="team-info">
+              <div class="team-name">Mrs. Sonali Salunke </div>
+              <div class="team-role">Community Health Worker</div>
+            </div>
+          </div>
+
+          <div class="team-card">
+            <img src="img/Profile pic.jpg" alt="Member">
+            <div class="team-info">
+              <div class="team-name">Mrs. Vandana Kamble</div>
+              <div class="team-role">Field Worker</div>
+            </div>
+          </div>
+
+          <div class="team-card">
+            <img src="img/Profile pic.jpg" alt="Member">
+            <div class="team-info">
+              <div class="team-name">Mrs. Subhadra Sable </div>
+              <div class="team-role">Field Worker</div>
+            </div>
+          </div>
+
+
+          <!-- Add more cards as needed -->
+
+        </div>
+      </div>
+  </section>
+
+  <!-- Testimonials Section -->
+
+  <section class="testimonial-slider-section">
+    <div class="container">
+      <h2 class="testimonial-slider-heading">What people say about us</h2>
+      <div class="testimonial-slider">
+        <button class="slider-arrow left" aria-label="Previous">&#x2039;</button>
+        <div class="testimonial-slides">
+          <!-- Slide 1 -->
+
+          <div class="testimonial-slide active">
+            <p class="testimonial-slider-text">
+              
+
+            </p>
+            <p class="testimonial-slider-author"></p>
+          </div>
+          <!-- Slide 2 -->
+
+          <div class="testimonial-slide">
+            <p class="testimonial-slider-text">
+            
+            </p>
+            <p class="testimonial-slider-author"></p>
+          </div>
+          <!-- Slide 3 -->
+
+          <div class="testimonial-slide">
+            <p class="testimonial-slider-text">
+        
+            </p>
+            <p class="testimonial-slider-author"></p>
+          </div>
+        </div>
+        <button class="slider-arrow right" aria-label="Next">&#x203A;</button>
+      </div>
+      <div class="testimonial-slider-dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <!-------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+  <!-- Fotter Section Start Here -->
+
+  <footer class="site-footer">
+    <div class="footer-main">
+
+      <div class="footer-col footer-about">
+
+        <!-- <div class="footer-logo">
+          <img src="img/HCJ_trnsparent Logo.png" alt="HCJMRI Logo">
+        </div> -->
+
+        <p>
+          Hirabai Cowasji Jehangir Medical Research Institute<br>
+          Improving health through research and care.
+        </p>
+        <ul class="footer-contact">
+          <li><i class="fas fa-phone-alt"></i> 020-66811741 / 26057004</li>
+          <li><i class="fas fa-envelope"></i> hcjmri.jehangirpune@gmail.com</li>
+          <li><i class="fas fa-map-marker-alt"></i>Lower Ground Floor,
+            Block V, Jehangir Hospital, 32 Sassoon Road, Pune</li>
+        </ul>
+      </div>
+      <!-- Column 2: Quick Links -->
+      <div class="footer-col footer-links">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="about hcjmri.html">About Us</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="publication.html">Publication</a></li>
+          <li><a href="donation appeals.html">Support Us</a></li>
+        </ul>
+      </div>
+      <!-- Column 3: Work Hours + Quote + Call -->
+      <div class="footer-col footer-hours">
+        <h5>Work Hours</h5>
+        <p><i class="fas fa-clock"></i> Mon – Sat: 9 AM – 5 PM</p>
+        <p>
+          “When a patient walks out holding a loved one's hand and wearing a smile, our purpose is fulfilled.”
+        </p>
+        <a href="contact us.html" class="footer-call-btn">Call Us Today</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Hirabai Cowasji Jehangir Medical Research Institute. All Rights Reserved.</p>
+      <p>
+        Designed by
+
+        <a href="https://github.com/priteshc-dev" target="_blank" rel="noopener">'Pritesh'</a>
+
+      </p>
+    </div>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+  <!-- Bootstrap Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Your custom script file -->
+  <script src="JavaScript/main.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      let currentSlide = 0;
+      const slides = document.querySelectorAll('.testimonial-slide');
+      const dots = document.querySelectorAll('.dot');
+      const totalSlides = slides.length;
+      let autoSlideInterval = null;
+      const slider = document.querySelector('.testimonial-slider');
+
+      function showSlide(index) {
+        slides.forEach((slide, i) => {
+          slide.classList.toggle('active', i === index);
+          dots[i].classList.toggle('active', i === index);
+        });
+        currentSlide = index;
+      }
+
+      function nextSlide() {
+        let next = (currentSlide + 1) % totalSlides;
+        showSlide(next);
+      }
+
+      function prevSlide() {
+        let prev = (currentSlide - 1 + totalSlides) % totalSlides;
+        showSlide(prev);
+      }
+
+      function startAutoSlide() {
+        stopAutoSlide();
+        autoSlideInterval = setInterval(nextSlide, 4000); // ४ सेकंदांनी slide बदलेल
+      }
+
+      function stopAutoSlide() {
+        if (autoSlideInterval) clearInterval(autoSlideInterval);
+      }
+
+      document.querySelector('.slider-arrow.left').addEventListener('click', () => {
+        prevSlide();
+        startAutoSlide();
+      });
+      document.querySelector('.slider-arrow.right').addEventListener('click', () => {
+        nextSlide();
+        startAutoSlide();
+      });
+
+      dots.forEach((dot, idx) => {
+        dot.addEventListener('click', () => {
+          showSlide(idx);
+          startAutoSlide();
+        });
+      });
+
+      slider.addEventListener('mouseenter', stopAutoSlide);   // hover केलं की auto-slide बंद
+      slider.addEventListener('mouseleave', startAutoSlide);  // hover बाहेर गेलं की सुरू
+
+      showSlide(0);
+      startAutoSlide();
+    });
+  </script>
+
+</body>
+
+</html>

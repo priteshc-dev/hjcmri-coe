@@ -1,1 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HCJMRI</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="CSS/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="icon" type="img" href="img/HCJ Logo.jpg">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .navbar {
+      position: sticky !important;
+      top: 0;
+      z-index: 1030;
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .navbar.scrolled {
+      background-color: hsl(187, 100%, 93%) !important;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Loader Start -->
+  <div id="page-loader">
+    <div class="loader-wrapper">
+      <div class="water-fill">
+        <img src="img/HCJ Logo.jpg" alt="Loading..." class="loader-logo">
+        <span class="ripple"></span>
+        <span class="ripple"></span>
+        <span class="ripple"></span>
+        <div class="water"></div>
+      </div>
+      <p class="loader-text">Welcome To HCJMRI Website 😊<span class="dots"></span></p>
+    </div>
+  </div>
+  </div>
+  <!-- Loader End -->
+
+  <!-- Hero Section with Icon and Scrolling Text -->
+  <section id="home" class="hero-section d-flex align-items-center justify-content-center"
+    title="Can you check notice? Please click me... 😊">
+    <div class="scrolling-text-wrapper">
+      <a href="notice.html" class="scrolling-text-link">
+        <div class="scrolling-text">
+          <i class="fas fa-hospital"></i>
+          Welcome to Hirabai Cowasji Jehangir Medical Research Institute
+        </div>
+      </a>
+    </div>
+  </section>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/HCJ_trnsparent Logo.png" alt="HCJMRI Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="about hcjmri.html">ABOUT HCJMRI</a></li>
+              <li><a class="dropdown-item" href="director mesage.html">DIRECTOR MESSAGE</a></li>
+              <li><a class="dropdown-item" href="commitee.html">COMMITTEE</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="sweetling page.html">SWEETLINGS</a></li>
+              <li><a class="dropdown-item" href="rihan page.html">RIHAN</a></li>
+              <li><a class="dropdown-item" href="mai project.html">MAI</a></li>
+              <li><a class="dropdown-item" href="ankur page.html">ANKUR</a></li>
+              <li><a class="dropdown-item" href="yuvaan project.html">YUVAAN COHORT</a></li>
+              <li><a class="dropdown-item" href="HCJMRI COE for Type 1 Diabetes.html">HCJMRI COE for Type 1 Diabetes</a>
+              </li>
+
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Academics</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="research.html">RESEARCH</a></li>
+              <li><a class="dropdown-item" href="publication.html">PUBLICATION</a></li>
+              <li><a class="dropdown-item" href="events.html">EVENTS</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Tools</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="pwg calculator.html">Gestational Weight Gain Calculator</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link active" href="Success Stories.html">Success Stories</a></li>
+          <li class="nav-item"><a class="nav-link active" href="awards.html">Awards</a></li>
+          <li class="nav-item"><a class="nav-link active" href="career with us.html">Career with us</a></li>
+          <li class="nav-item"><a class="nav-link active" href="donation appeals.html">Donation Appeals</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact us.html">Contact Us</a></li>
+        </ul>
+
+        <div class="social-toggle-area">
+          <button class="social-toggle-btn btn" onclick="toggleSocialSidebar()">
+            <h5 class="mb-0">Social Media</h5>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div id="socialSidebar" class="social-sidebar right">
+    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+  </div>
+
+
+
+  <!-- Carousel Section -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="Our Sweetling Project Team" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/Index Page.jpg" class="d-block w-100" alt="...">
+        <!-- <div class="carousel-caption d-none d-md-block">
+        <h5 id="animated-caption">Team SWEETLINGS</h5>
+         </div> -->
+      </div>
+      <div class="carousel-item">
+        <img src="img/Sweetling Cover Photo.JPG" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!--  Front Page About Section -->
+
+
+  <section id="about 1" class="about-section py-5">
+    <div style="padding-top: 90px; margin-top: -80px;">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Left Side - Text -->
+          <div class="col-md-6">
+            <h2 class="about-heading">
+              <i class="fas fa-hands-helping"></i> About Us
+            </h2>
+            <p>
+              Hirabai Cowasji Jehangir Medical Research Institute (HCJMRI) was established in 1995 with the mission to
+              advance scientific research and enhance the quality of human life. Located within the premises of Jehangir
+              Hospital in Pune, HCJMRI operates as a sister concern of the hospital.
+              <br>
+              The institute is recognized by the Directorate of Scientific and Industrial Research (DSIR), Government of
+              India, as a centre for multidisciplinary research across various scientific domains. HCJMRI also holds
+              both
+              the 80G certification and the prestigious 35(i)(ii) certificate, enabling donors to claim maximum tax
+              exemptions......
+            </p>
+          </div>
+          <!-- Right Side - Image -->
+          <div class="col-md-6 text-center">
+            <div class="image-box-2">
+              <img src="img/j1.webp" alt="About HCJMRI" class="img-fluid rounded shadow">
+            </div>
+          </div>
+          <!-- Button Section -->
+          <div class="text-center mt-4">
+            <a href="about hcjmri.html" class="btn btn-primary btn-lg">View Details</a>
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+  <!--  Front Page our project Section -->
+
+
+  <section class="projects-section py-5" id="projects">
+    <div class="container">
+      <h2 class="about-heading text-center mb-5">Our Projects</h2>
+      <div class="row">
+        <!-- Project 1 -->
+        <div class="col-md-6 mb-4">
+          <div class="card project-card shadow-lg">
+            <img src="img/Sweetling Cover Photo.jpg" alt="Project 1" class="card-img-top project-img">
+            <div class="card-body text-center">
+              <h5 class="card-title">
+                <i class="fas fa-heartbeat"></i> SWEETLINGS
+              </h5>
+              <p class="card-text">
+                Sweetlings is a holistic program by HCJMRI offering free, ongoing care to underprivileged children with
+                Type 1 Diabetes. It supports their medical, nutritional, and emotional needs. </p>
+              <a href="sweetling page.html" class="btn btn-primary project-btn">Know More</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="col-md-6 mb-4">
+          <div class="card project-card shadow-lg">
+            <img src="img/Rihan Cover Photo.jpg" alt="Project 2" class="card-img-top project-img">
+            <div class="card-body text-center">
+              <h5 class="card-title">
+                <i class="fas fa-heartbeat"></i> RIHAN
+              </h5>
+              <p class="card-text">
+                RIHAN is a 10-year rural health initiative enhancing the well-being of children, pregnant women, and the
+                elderly in Ranjangaon through screenings, counseling, and education.
+              </p>
+              <a href="rihan page.html" class="btn btn-primary project-btn">Know More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+       <div class="row">
+        <!-- Project 3 -->
+        <div class="col-md-6 mb-4">
+          <div class="card project-card shadow-lg">
+            <img src="img/Ankur Cover Photo.jpg" alt="Project 3" class="card-img-top project-img">
+            <div class="card-body text-center">
+              <h5 class="card-title">
+                <i class="fas fa-heartbeat"></i>ANKUR
+              </h5>
+              <p class="card-text">
+                ANKUR bridges healthcare gaps in Pune’s slums through school screenings, maternal care, and NCD clinics,
+                benefiting underserved communities for the past three years.
+              </p>
+              <a href="ankur page.html" class="btn btn-primary project-btn">Know More</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 4 -->
+        <div class="col-md-6 mb-4">
+          <div class="card project-card shadow-lg">
+            <img src="img/Yuvaan Cover Photo.jpg" alt="Project 4" class="card-img-top project-img">
+            <div class="card-body text-center">
+              <h5 class="card-title">
+                <i class="fas fa-heartbeat"></i> YUVAAN COHORT
+              </h5>
+              <p class="card-text">
+                YUVAAN is a rural adolescent health study exploring growth, bone and muscle development, and
+                intergenerational nutrition to improve long-term health outcomes.
+              </p>
+              <a href="yuvaan project.html" class="btn btn-primary project-btn">Know More</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 5 -->
+        <div class="col-md-6 mb-4 offset-md-3">
+          <div class="card project-card shadow-lg">
+            <img src="img/Mai Cover Photo.jpg" alt="Project 1" class="card-img-top project-img">
+            <div class="card-body text-center">
+              <h5 class="card-title">
+                <i class="fas fa-heartbeat"></i> MAI
+              </h5>
+              <p class="card-text">
+                MAI Project advances maternal & child health in slum and rural settings by tracking pregnancy
+                care, healthcare access, and child feeding practices to guide better interventions.
+              </p>
+              <a href="mai project.html" class="btn btn-primary project-btn">Know More</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 6 -->
+        <div class="col-md-6 mb-4 offset-md-3">
+          <div class="card project-card shadow-lg">
+            <img src="img/HCJMRI Cover Photo.jpg" alt="Project 1" class="card-img-top project-img">
+            <div class="card-body text-center">
+              <h5 class="card-title">
+                <i class="fas fa-heartbeat"></i> HCJMRI COE for Type 1 Diabetes
+              </h5>
+              <p class="card-text">
+                Children with Type 1 Diabetes in rural India face high treatment costs and poor access to care.
+                Immediate support is vital to ensure their health and survival.
+              </p>
+              <a href="HCJMRI COE for Type 1 Diabetes.html" class="btn btn-primary project-btn">Know More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Event And Program Section Start Here -->
+
+  <section class="events-section">
+    <h2 class="about-heading">Our Events and Programs</h2>
+
+    <div class="events-container">
+      <div class="event-card">
+        <h3>Session on Diabetes complications</h3>
+        <p class="event-date">22 March 2025</p>
+        <a href="events.html" class="view-more-btn">View Photos</a>
+      </div>
+      <div class="event-card">
+        <h3>Sweetlings Refresher training & Make A Wish foundation</h3>
+        <p class="event-date">21 March 2025</p>
+        <a href="events.html" class="view-more-btn">View Photos</a>
+      </div>
+      <!-- <div class="event-card">
+        <h3>Session on Diabetes complications</h3>
+        <p class="event-date">16 March 2025</p>
+        <a href="events.html" class="view-more-btn">View More</a>
+      </div> -->
+      <div class="event-card">
+        <h3>Session on psychological well being of parents</h3>
+        <p class="event-date">08 Feb 2025</p>
+        <a href="events.html" class="view-more-btn">View Photos</a>
+      </div>
+      <div class="event-card">
+        <h3>Session on basic Diabetes education for newly enrolled patients</h3>
+        <p class="event-date">25 Jan 2025</p>
+        <a href="events.html" class="view-more-btn">View Photos</a>
+      </div>
+    </div>
+
+    <div class="view-all-container">
+      <a href="events.html" class="view-all-btn">View All Events and Programs</a>
+    </div>
+
+  </section>
+
+  <!-------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+  <!-- Fotter Section Start Here -->
+
+  <footer class="site-footer">
+    <div class="footer-main">
+
+      <div class="footer-col footer-about">
+
+        <!-- <div class="footer-logo">
+          <img src="img/HCJ_trnsparent Logo.png" alt="HCJMRI Logo">
+        </div> -->
+
+        <p>
+          Hirabai Cowasji Jehangir Medical Research Institute<br>
+          Improving health through research and care.
+        </p>
+        <ul class="footer-contact">
+          <li><i class="fas fa-phone-alt"></i> 020-66811741 / 26057004</li>
+          <li><i class="fas fa-envelope"></i> hcjmri.jehangirpune@gmail.com</li>
+          <li><i class="fas fa-map-marker-alt"></i>Lower Ground Floor,
+Block V, Jehangir Hospital, 32 Sassoon Road, Pune</li>
+        </ul>
+      </div>
+      <!-- Column 2: Quick Links -->
+      <div class="footer-col footer-links">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="about hcjmri.html">About Us</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="publication.html">Publication</a></li>
+          <li><a href="donation appeals.html">Support Us</a></li>
+        </ul>
+      </div>
+      <!-- Column 3: Work Hours + Quote + Call -->
+      <div class="footer-col footer-hours">
+        <h5>Work Hours</h5>
+        <p><i class="fas fa-clock"></i> Mon – Sat: 9 AM – 5 PM</p>
+        <p>
+          “When a patient walks out holding a loved one's hand and wearing a smile, our purpose is fulfilled.”
+        </p>
+        <a href="contact us.html" class="footer-call-btn">Call Us Today</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Hirabai Cowasji Jehangir Medical Research Institute. All Rights Reserved.</p>
+      <p>
+         Designed by
+
+        <a href="https://github.com/priteshc-dev" target="_blank" rel="noopener">'Pritesh'</a>
+
+      </p>
+    </div>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+
+  <!-- Bootstrap Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Your custom script file -->
+  <script src="JavaScript/main.js"></script>
+
+  <script>
+    window.addEventListener("load", function () {
+      const loader = document.getElementById("page-loader");
+      if (loader) {
+        loader.style.opacity = "0";
+        loader.style.transition = "opacity 0.5 ease";
+        setTimeout(() => {
+          loader.style.display = "none";
+        }, 1500); // 1.5 सेकंदांनी loader hide (animation purn hoil)
+      }
+    });
+  </script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+  const h5 = document.getElementById("animated-caption");
+  const text = h5.textContent;
+  h5.innerHTML = "";
+
+  for (let i = 0; i < text.length; i++) {
+    const span = document.createElement("span");
+    span.textContent = text[i] === " " ? "\u00A0" : text[i];
+    span.style.display = "inline-block";
+    span.style.opacity = 0;
+    span.style.transform = "translateY(-40px)";
+    span.classList.add('caption-letter');
+    h5.appendChild(span);
+
+    setTimeout(() => {
+      span.style.opacity = 1;
+      span.style.transform = "translateY(0)";
+      span.classList.add('animated');
+    }, 100 * i);
+  }
+});
+  </script>
+
+
+
+</body>
+
+</html>

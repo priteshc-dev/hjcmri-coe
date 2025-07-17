@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HCJMRI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="icon" type="img" href="img/HCJ Logo.jpg">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .navbar {
+            position: sticky !important;
+            top: 0;
+            z-index: 1030;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .navbar.scrolled {
+            background-color: #fff !important;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Hero Section with Icon and Scrolling Text
+  <section id="home" class="hero-section d-flex align-items-center justify-content-center">
+    <div class="scrolling-text-wrapper">
+      <div class="scrolling-text">
+        <i class="fas fa-hospital"></i>
+        Welcome to Hirabai Cowasji Jehangir Medical Research Institute
+      </div>
+    </div>
+  </section> -->
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/HCJ_trnsparent Logo.png" alt="HCJMRI Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="about hcjmri.html">ABOUT HCJMRI</a></li>
+                            <li><a class="dropdown-item" href="director mesage.html">DIRECTOR MESSAGE</a></li>
+                            <li><a class="dropdown-item" href="commitee.html">COMMITTEE</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="sweetling page.html">SWEETLINGS</a></li>
+                            <li><a class="dropdown-item" href="rihan page.html">RIHAN</a></li>
+                            <li><a class="dropdown-item" href="mai project.html">MAI</a></li>
+                            <li><a class="dropdown-item" href="ankur page.html">ANKUR</a></li>
+                            <li><a class="dropdown-item" href="yuvaan project.html">YUVAAN COHORT</a></li>
+                            <li><a class="dropdown-item" href="HCJMRI COE for Type 1 Diabetes.html">HCJMRI COE for Type
+                                    1 Diabetes</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Academics</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="research.html">RESEARCH</a></li>
+                            <li><a class="dropdown-item" href="publication.html">PUBLICATION</a></li>
+                            <li><a class="dropdown-item" href="events.html">EVENTS</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Tools</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="pwg calculator.html">Gestational Weight Gain Calculator</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link active" href="Success Stories.html">Success Stories</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="awards.html">Awards</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="career with us.html">Career with us</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="donation appeals.html">Donation Appeals</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link active" href="contact us.html">Contact Us</a></li>
+                </ul>
+
+                <div class="social-toggle-area">
+                    <button class="social-toggle-btn btn" onclick="toggleSocialSidebar()">
+                        <h5 class="mb-0">Social Media</h5>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="socialSidebar" class="social-sidebar right">
+        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+
+    <!-- Success stori inividual page design code start -->
+
+    <div class="event-title">
+        <h2 class="h2">ANKUR Success Stories</h2>
+    </div>
+
+    <section class="success-story">
+
+
+        <!-- Succes Storie - 1 -->
+
+        <div class="event-container">
+            <h3 class="project-name"></h3>
+            <p class="description">
+                “With her tiny footsteps, a little angel came bustling into our Ankur health check-up camp today,
+                accompanied by her parents. Along with her came her school tiffin box, excited to get her snack, eagerly
+                waiting to show her father what the teacher had packed for her today. Just looking at the
+                father-daughter duo made it clear — whether a father rides a bicycle or flies high in the skies in an
+                airplane, for every girl, her father is nothing less than a king, and for every father, his daughter is
+                always a princess. Truly, heroes aren’t just on the screen; they exist in real life too.”
+            </p>
+            <p class="author">--By, Meghana Ghadage.</p>
+
+            <div class="image-gallery">
+                <img src="img/Success Stories Photos/SS-1-1.jpg" alt="Gallery 1">
+                <img src="img/Success Stories Photos/SS-1.jpg" alt="Gallery 1">
+            </div>
+        </div>
+
+
+        <!-- Succes Storie - 2 -->
+
+        <div class="event-container">
+            <h3 class="project-name"></h3>
+            <p class="description">
+                “During our Ankur Health Check-up Camp at Subhashnagar, a woman suddenly experienced a seizure. Thanks
+                to the quick presence of mind of the entire team, the woman was saved from falling to the ground. She
+                was immediately placed on her left side so that the saliva from her mouth could drain out safely without
+                causing her discomfort. Dr. Megha Madam also promptly examined the woman. It was observed that many in
+                the crowd believed that giving a key, onion, or the smell of footwear could cure a person having a
+                seizure. At that moment, the doctor guided the people present about what should and should not be done
+                when someone has a seizure.”
+            </p>
+            <p class="author">--By, Meghana Ghadage.</p>
+
+            <div class="image-gallery">
+                <img src="img/Success Stories Photos/SS-2.png" alt="Gallery 1">
+            </div>
+        </div>
+
+
+        <!-- Succes Storie - 3 -->
+
+        <div class="event-container">
+            <h3 class="project-name"></h3>
+            <p class="description">
+                "Under the Ankur Project, a health camp was organized on 4th September 2023 at Ganesh Nagar, Yerwada. At
+                the camp, Uddhav Vithoba Moon, a 74-year-old male patient, came with a complaint of experiencing reduced
+                vision in both eyes for the past two years. During the consultation, he informed the doctor that he had
+                been receiving treatment for high blood pressure since last year. After the examination, we coordinated
+                with Mr. Sagar, the social worker at H.V. Desai Eye Center in Yerwada and referred him to a doctor’s
+                note for further evaluation. On the same day, his eyes were examined (cataracts were detected in both
+                eyes), and he was scheduled for further evaluation on 22nd September 2023. Subsequently, on 11th October
+                2023, he underwent surgery for his right eye at H.V. Desai Eye Hospital, Mohammad wadi. He can now see
+                clearly and is continuing his follow-up treatment. The doctors advised that surgery for his left eye
+                will be performed after three months. During the follow-up after the health camp, his family provided
+                excellent cooperation and expressed their gratitude to the Ankur Project.”.
+            </p>
+            <p class="author">--By, Yogini Bhagat.</p>
+
+            <!-- <div class="image-gallery">
+                <img src="img/ankur Stories Photos/SS-2.png" alt="Gallery 1">
+            </div> -->
+        </div>
+
+        <!-- Succes Storie - 4 -->
+
+        <div class="event-container">
+            <h3 class="project-name"></h3>
+            <p class="description">
+                “At our Ankur Health Check-up Camp held on 2nd November 2023 at BSSK Vishrantwadi, along with the
+                adults, many children also enthusiastically participated in the check-up. Some came with their
+                grandparents, parents, siblings, or friends. Among them, the friendship of Mayang Dhotre, Ganesh
+                Sakhare, Ashish Gaikwad, and Amit Mandal, aged 8 to 9 years, and the sibling bond between Ganesh Sakhare
+                and Trisha Sakhare, captured everyone’s attention.<br>
+                <br>
+                In life, we may not always get everything the way we want, but one must learn to live contentedly even
+                within the available circumstances. Having a sense of responsibility, siblings caring for each other
+                like parents, reflects an unbreakable bond. It’s heartening to see such relationships, which seem rare
+                today, still existing. Hands that bring joy are the same hands that learn to overcome limits and
+                challenges. And in friendship, this is almost inevitable… like sharing half a seat and riding a bicycle
+                together—possible only because of pure, innocent friendship.<br>
+                <br>
+                It doesn’t matter how much space you have; it’s all about true love and adjustment.At BSSK,
+                Vishrantwadi, we conducted a health camp on 2nd November 2023. During the camp, a woman named Irfana
+                Shabbir Shaikh, aged 50, came for a check-up. Her hand was fractured, but instead of focusing on her own
+                health, she was more concerned about her son’s 10th-grade exams, which were going on at the time. Her
+                hand was in a plaster cast, but she was in significant pain and needed surgery for her injury.<br>
+                <br>
+                When she visited the camp, our doctor and staff explained to her that while her son’s exams were
+                important, it was equally important for her to take care of herself. They advised her that the operation
+                was necessary. Later, on 16th November 2023, during a follow-up call to check whether she had undergone
+                the surgery, her daughter informed us that she had gone to Global Healthcare, Kondhwa, and had the
+                surgery. She was now recovering well.”
+            </p>
+            <p class="author">--By, Sonam Machale.</p>
+
+            <div class="image-gallery">
+                <img src="img/Success Stories Photos/SS-4.jpg" alt="Gallery 1">
+            </div>
+        </div>
+
+        <!-- Succes Storie - 5 -->
+
+        <div class="event-container">
+            <h3 class="project-name"></h3>
+            <p class="description">
+                “The deep love and longing between sisters is natural. Even though her sister is no longer physically
+                present, she will always remain a part of her heart and memories.
+                On 7th November 2023, our Ankur team conducted a school health check-up camp at Bapusaheb Pawar Girls'
+                School. There, a 7-year-old student named Gargi Ganesh Sathe from 2nd grade came for a check-up. During
+                the check-up, Dr. Megha Madam noticed that Gargi’s recurring illnesses were not due to any physical
+                condition but stemmed from her mental state. She referred to Gargi to me.<br>
+                <br>
+                At first, I asked Gargi about herself and her family. When I gently asked what was troubling her, I
+                learned that just a month ago, her two-year-old younger sister had suddenly fallen ill and passed away.
+                According to Gargi, she often sees her little sister — while sleeping, sitting, playing outside, or
+                wherever she goes. She said, "My heart aches for her every day. I miss her smile, her presence, and her
+                warm hugs. I can’t forget her — I want her back." As she spoke, her eyes filled with tears.<br>
+                <br>
+                Being so young, Gargi couldn’t fully express her emotions in words, but it was clear how deeply she
+                missed her sister. She believed that her little sister was still very close to her all the time.<br>
+                <br>
+                After some time, her father arrived. He explained that since the loss of her little sister a month ago,
+                Gargi had not been eating or sleeping properly, and her health was affected. While gathering more
+                details, I learned that when her younger sister fell ill, the parents had admitted her to Sassoon
+                Hospital, where she unfortunately passed away. After her passing, the family performed her last rites
+                directly from the hospital, without bringing her body home. None of the siblings, including Gargi, were
+                taken to see her one last time.<br>
+                <br>
+                This left a deep sorrow in Gargi’s heart — the regret that she and her siblings didn’t even get to see
+                their little sister for the final time. This grief was too much for her to bear.<br>
+                <br>
+                I then gently spoke to her about life and death, helping her understand the truth of existence in a way
+                she could grasp. As our conversation grew more personal and comforting, Gargi slowly opened. After
+                sharing her thoughts with me, she said she felt much better — like the questions in her heart had
+                finally been answered. She promised me she would start eating properly again.<br>
+                <br>
+                It’s only natural — the sudden loss of someone very close is a shock no one can easily bear, especially
+                for a child as young as Gargi.”
+            </p>
+            <p class="author">--By, Meghana Ghadage.</p>
+
+            <div class="image-gallery">
+                <img src="img/Success Stories Photos/SS-5.jpg" alt="Gallery 1">
+            </div>
+        </div>
+
+        <!-- Succes Storie - 6 -->
+
+        <div class="event-container">
+            <h3 class="project-name"></h3>
+            <p class="description">
+                “On 4th December 2023, our Ankur team conducted a health check-up camp at BSSK in Vishrantwadi. During
+                the camp, a 12-year-old boy named Prithviraj Anil Gaikwad came for a check-up along with his parents and
+                brother. During the check-up, we learned that both his kidneys had failed. He wasn’t speaking at all and
+                seemed withdrawn and isolated.<br>
+                <br>
+                At that moment, I spoke with him and his family. While his parents were sharing his situation, they
+                couldn’t hold back their tears. I consoled them, encouraging them to face this difficult time with
+                strength and explaining that finding a solution was essential. I also emphasized the importance of
+                preserving the boy’s mental health during this period.<br>
+                <br>
+                Prithviraj’s father works as a security guard on a contract basis, and his mother works in households
+                cleaning utensils. In 2018, Prithviraj underwent surgery at KEM Hospital due to kidney stones. In 2021,
+                while playing with firecrackers, he injured his hand and had surgery at YCM Hospital. Later, because a
+                rod in his hand had dislodged, he had to undergo another surgery, and in 2023, a third surgery was done
+                at Command Hospital. According to his father, Prithviraj doesn’t respond well to anaesthesia, so he was
+                given higher doses of medication.<br>
+                <br> In August 2023, when he started passing blood in his urine, they took him to the hospital, where it
+                was
+                confirmed that both his kidneys were damaged. His treatment is currently ongoing at Command Hospital.
+                The doctors sent some samples to Bangalore for genetic testing. The results revealed that since his
+                parents had a consanguineous (within the family) marriage, this condition was likely inherited, and it
+                was inevitable that his kidneys would fail around the age of 10-12.<br>
+                <br>
+                Prithviraj’s treatment is continuing at Command Hospital. I also spoke with him, shared motivational
+                stories, and gently explained the reality of his illness. I asked about his hobbies and interests,
+                trying my best to draw him out of his isolation. Slowly, he started opening and talking to me.<br>
+                <br>
+                I told him: ‘For anyone with kidney disease, especially young children, I know it’s scary to live with
+                kidney disease, to be on dialysis, or to need a transplant. But stay hopeful. Be careful, eat the right
+                diet, take your medicines, and be consistent with your treatment, lab tests, and doctor visits.’’
+            </p>
+            <p class="author">--By, Meghana Ghadage.</p>
+
+            <div class="image-gallery">
+                <img src="img/Success Stories Photos/SS-6.jpg" alt="Gallery 1">
+            </div>
+        </div>
+
+        <hr class="story-divider">
+
+        <div class="back-button-container">
+            <a href="Success Stories.html" class="back-btn">← Back to Success Stories</a>
+        </div>
+    </section>
+
+    <!-- Lightbox container -->
+    <div id="lightbox" onclick="closeLightbox()">
+        <img id="lightbox-img" src="">
+    </div>
+
+    <script>
+        const galleryImages = document.querySelectorAll('.image-gallery img');
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+
+        galleryImages.forEach(img => {
+            img.addEventListener('click', (e) => {
+                e.stopPropagation();
+                lightboxImg.src = img.src;
+                lightbox.style.display = 'flex';
+            });
+        });
+
+        function closeLightbox() {
+            lightbox.style.display = 'none';
+        }
+    </script>
+
+
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+  <!-- Fotter Section Start Here -->
+
+  <footer class="site-footer">
+    <div class="footer-main">
+
+      <div class="footer-col footer-about">
+
+        <!-- <div class="footer-logo">
+          <img src="img/HCJ_trnsparent Logo.png" alt="HCJMRI Logo">
+        </div> -->
+
+        <p>
+          Hirabai Cowasji Jehangir Medical Research Institute<br>
+          Improving health through research and care.
+        </p>
+        <ul class="footer-contact">
+          <li><i class="fas fa-phone-alt"></i> 020-66811741 / 26057004</li>
+          <li><i class="fas fa-envelope"></i> hcjmri.jehangirpune@gmail.com</li>
+          <li><i class="fas fa-map-marker-alt"></i>Lower Ground Floor,
+Block V, Jehangir Hospital, 32 Sassoon Road, Pune</li>
+        </ul>
+      </div>
+      <!-- Column 2: Quick Links -->
+      <div class="footer-col footer-links">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="about hcjmri.html">About Us</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="publication.html">Publication</a></li>
+          <li><a href="donation appeals.html">Support Us</a></li>
+        </ul>
+      </div>
+      <!-- Column 3: Work Hours + Quote + Call -->
+      <div class="footer-col footer-hours">
+        <h5>Work Hours</h5>
+        <p><i class="fas fa-clock"></i> Mon – Sat: 9 AM – 5 PM</p>
+        <p>
+          “When a patient walks out holding a loved one's hand and wearing a smile, our purpose is fulfilled.”
+        </p>
+        <a href="contact us.html" class="footer-call-btn">Call Us Today</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Hirabai Cowasji Jehangir Medical Research Institute. All Rights Reserved.</p>
+      <p>
+        Designed by
+
+        <a href="https://github.com/priteshc-dev" target="_blank" rel="noopener">'Pritesh'</a>
+
+      </p>
+    </div>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+    <!-- Bootstrap Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Your custom script file -->
+    <script src="JavaScript/main.js"></script>
+
+</body>
+
+</html>

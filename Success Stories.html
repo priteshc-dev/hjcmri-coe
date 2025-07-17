@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HCJMRI</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="CSS/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="icon" type="img" href="img/HCJ Logo.jpg">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .navbar {
+      position: sticky !important;
+      top: 0;
+      z-index: 1030;
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .navbar.scrolled {
+      background-color: #fff !important;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Hero Section with Icon and Scrolling Text -->
+  <!-- <section id="home" class="hero-section d-flex align-items-center justify-content-center">
+    <div class="scrolling-text-wrapper">
+      <div class="scrolling-text">
+        <i class="fas fa-hospital"></i>
+        Welcome to Hirabai Cowasji Jehangir Medical Research Institute
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/HCJ_trnsparent Logo.png" alt="HCJMRI Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="about hcjmri.html">ABOUT HCJMRI</a></li>
+              <li><a class="dropdown-item" href="director mesage.html">DIRECTOR MESSAGE</a></li>
+              <li><a class="dropdown-item" href="commitee.html">COMMITTEE</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="sweetling page.html">SWEETLINGS</a></li>
+              <li><a class="dropdown-item" href="rihan page.html">RIHAN</a></li>
+              <li><a class="dropdown-item" href="mai project.html">MAI</a></li>
+              <li><a class="dropdown-item" href="ankur page.html">ANKUR</a></li>
+              <li><a class="dropdown-item" href="yuvaan project.html">YUVAAN COHORT</a></li>
+              <li><a class="dropdown-item" href="HCJMRI COE for Type 1 Diabetes.html">HCJMRI COE for Type 1 Diabetes</a>
+              </li>
+
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Academics</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="research.html">RESEARCH</a></li>
+              <li><a class="dropdown-item" href="publication.html">PUBLICATION</a></li>
+              <li><a class="dropdown-item" href="events.html">EVENTS</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Tools</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="pwg calculator.html">Gestational Weight Gain Calculator</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link active" href="Success Stories.html">Success Stories</a></li>
+          <li class="nav-item"><a class="nav-link active" href="awards.html">Awards</a></li>
+          <li class="nav-item"><a class="nav-link active" href="career with us.html">Career with us</a></li>
+          <li class="nav-item"><a class="nav-link active" href="donation appeals.html">Donation Appeals</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact us.html">Contact Us</a></li>
+        </ul>
+
+        <div class="social-toggle-area">
+          <button class="social-toggle-btn btn" onclick="toggleSocialSidebar()">
+            <h5 class="mb-0">Social Media</h5>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div id="socialSidebar" class="social-sidebar right">
+    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+  </div>
+
+  <!-- ... Success Stories Section Start Here  ... -->
+
+  <!-- Hero Section
+<section class="hero-image d-flex align-items-center justify-content-center text-center">
+  <div class="hero-text">
+    <h1 class="text-white">Success Stories</h1>
+    <p class="text-white">Explore our impactful projects and inspiring outcomes</p>
+  </div>
+</section> -->
+
+  <!-- Banner -->
+  <section class="career-hero">
+    <h1>Success Stories</h1>
+    <p>Discover the real impact of our projects through inspiring stories of change and achievement.</p>
+  </section>
+
+  <!-- Themed Section
+<section class="theme-section text-center">
+  <h2>Our Success Stories</h2>
+  <p>Discover how our initiatives have brought real change to communities</p>
+</section> -->
+
+  <!-- Cards Section -->
+  <section class="container py-5">
+    <div class="row g-4">
+
+      <!-- Card 1 -->
+      <div class="col-md-4">
+        <a href="s.stories sweetlingd.html" class="text-decoration-none text-dark">
+          <div class="card story-card">
+            <img src="img/Sweetling Cover Photo.JPG" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Sweetlings Success Stories</h5>
+              <p class="card-text">Empowering children with Type 1 diabetes through continuous care and support.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-4">
+        <a href="s.stories rihan.html" class="text-decoration-none text-dark">
+          <div class="card story-card">
+            <img src="img/Rihan Cover Photo.jpg" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">RIHAN Success Stories</h5>
+              <p class="card-text">Community intervention program focusing on adolescent health education.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4">
+        <a href="s.stories mai.html" class="text-decoration-none text-dark">
+          <div class="card story-card">
+            <img src="img/Mai Cover Photo.jpg" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">MAI Success Stories</h5>
+              <p class="card-text">Support system for mothers of children with chronic illness across Maharashtra.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-md-4">
+        <a href="s.stories ankur.html" class="text-decoration-none text-dark">
+          <div class="card story-card">
+            <img src="img/Ankur Cover Photo.jpg" class="card-img-top" alt="Project 4">
+            <div class="card-body">
+              <h5 class="card-title">Ankur Success Stories</h5>
+              <p class="card-text">Early detection and support for childhood diabetes in urban slums.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="col-md-4">
+        <a href="s.stories yuvaan.html" class="text-decoration-none text-dark">
+          <div class="card story-card">
+            <img src="img/Yuvaan Cover Photo.jpg" class="card-img-top" alt="Project 5">
+            <div class="card-body">
+              <h5 class="card-title">Yuvaan Success Stories</h5>
+              <p class="card-text">Youth-centered diabetes awareness and digital learning initiatives.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col-md-4">
+        <a href="s.stories hcjmri coe.html" class="text-decoration-none text-dark">
+          <div class="card story-card">
+            <img src="img/HCJMRI Cover Photo.jpg" class="card-img-top" alt="Project 6">
+            <div class="card-body">
+              <h5 class="card-title">HCJMRI COE Success Stories</h5>
+              <p class="card-text">A Center of Excellence for clinical research and diabetes care delivery.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Hover Info Message -->
+  <div class="hover-message text-center" id="hoverMessage">
+    Read More Please Click on This Page
+  </div>
+
+
+
+
+
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+  <!-- Fotter Section Start Here -->
+
+  <footer class="site-footer">
+    <div class="footer-main">
+
+      <div class="footer-col footer-about">
+
+        <!-- <div class="footer-logo">
+          <img src="img/HCJ_trnsparent Logo.png" alt="HCJMRI Logo">
+        </div> -->
+
+        <p>
+          Hirabai Cowasji Jehangir Medical Research Institute<br>
+          Improving health through research and care.
+        </p>
+        <ul class="footer-contact">
+          <li><i class="fas fa-phone-alt"></i> 020-66811741 / 26057004</li>
+          <li><i class="fas fa-envelope"></i> hcjmri.jehangirpune@gmail.com</li>
+          <li><i class="fas fa-map-marker-alt"></i>Lower Ground Floor,Block V, Jehangir Hospital, 32 Sassoon Road, Pune</li>
+        </ul>
+      </div>
+      <!-- Column 2: Quick Links -->
+      <div class="footer-col footer-links">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="about hcjmri.html">About Us</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="publication.html">Publication</a></li>
+          <li><a href="donation appeals.html">Support Us</a></li>
+        </ul>
+      </div>
+      <!-- Column 3: Work Hours + Quote + Call -->
+      <div class="footer-col footer-hours">
+        <h5>Work Hours</h5>
+        <p><i class="fas fa-clock"></i> Mon – Sat: 9 AM – 5 PM</p>
+        <p>
+          “When a patient walks out holding a loved one's hand and wearing a smile, our purpose is fulfilled.”
+        </p>
+        <a href="contact us.html" class="footer-call-btn">Call Us Today</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Hirabai Cowasji Jehangir Medical Research Institute. All Rights Reserved.</p>
+      <p>
+        Designed by
+
+        <a href="https://github.com/priteshc-dev" target="_blank" rel="noopener">'Pritesh'</a>
+
+      </p>
+    </div>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+  <!-- Bootstrap Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Your custom script file -->
+  <script src="JavaScript/main.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const cards = document.querySelectorAll('.story-card');
+      const hoverMessage = document.getElementById('hoverMessage');
+
+      cards.forEach(card => {
+        card.addEventListener('mouseenter', () => {
+          hoverMessage.style.display = 'block';
+        });
+        card.addEventListener('mouseleave', () => {
+          hoverMessage.style.display = 'none';
+        });
+      });
+    });
+  </script>
+
+
+</body>
+
+</html>

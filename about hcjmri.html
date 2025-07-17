@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HCJMRI</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="CSS/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .navbar {
+      position: sticky !important;
+      top: 0;
+      z-index: 1030;
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .navbar.scrolled {
+      background-color: #fff !important;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Hero Section with Icon and Scrolling Text
+<section id="home" class="hero-section d-flex align-items-center justify-content-center">
+  <div class="scrolling-text-wrapper">
+    <div class="scrolling-text">
+      <i class="fas fa-hospital"></i>
+      Welcome to Hirabai Cowasji Jehangir Medical Research Institute
+    </div>
+  </div>
+</section> -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/HCJ_trnsparent Logo.png" alt="HCJMRI Logo">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown">About Us</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="about hcjmri.html">ABOUT HCJMRI</a></li>
+              <li><a class="dropdown-item" href="director mesage.html">DIRECTOR MESSAGE</a></li>
+              <li><a class="dropdown-item" href="commitee.html">COMMITTEE</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown">Projects</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="sweetling page.html">SWEETLINGS</a></li>
+              <li><a class="dropdown-item" href="rihan page.html">RIHAN</a></li>
+              <li><a class="dropdown-item" href="ankur page.html">ANKUR</a></li>
+              <li><a class="dropdown-item" href="yuvaan project.html">YUVAAN COHORT</a></li>
+              <li><a class="dropdown-item" href="HCJMRI COE for Type 1 Diabetes.html">HCJMRI COE for Type 1 Diabetes</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown">Academics</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="research.html">RESEARCH</a></li>
+              <li><a class="dropdown-item" href="publication.html">PUBLICATION</a></li>
+              <li><a class="dropdown-item" href="events.html">EVENTS</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Tools</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="pwg calculator.html">Gestational Weight Gain Calculator</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link active" href="Success Stories.html">Success Stories</a></li>
+          <li class="nav-item"><a class="nav-link active" href="awards.html">Awards</a></li>
+          <li class="nav-item"><a class="nav-link active" href="career with us.html">Career with us</a></li>
+          <li class="nav-item"><a class="nav-link active" href="donation appeals.html">Donation Appeals</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact us.html">Contact Us</a></li>
+        </ul>
+        <button class="social-toggle-btn btn" onclick="toggleSocialSidebar()">
+          <h5>Social Media</h5>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div id="socialSidebar" class="social-sidebar right">
+    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+  </div>
+
+  <!-- About Sections Here (no change needed for static content) -->
+
+
+
+  <!-- About Us Main Page -->
+
+
+  <section class="about-section py-5" id="about">
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-md-6 mb-4 mb-md-0 d-flex flex-column justify-content-center">
+          <h2 class="about-heading">
+            <i class="fas fa-hands-helping"></i> About HCJMRI
+          </h2>
+          <p>
+            Hirabai Cowasji Jehangir Medical Research Institute (HCJMRI) was established in 1995 with the mission to
+            advance scientific research and enhance the quality of human life. Located within the premises of Jehangir
+            Hospital in Pune, HCJMRI operates as a sister concern of the hospital.
+            <br>
+            The institute is recognized by the Directorate of Scientific and Industrial Research (DSIR), Government of
+            India, as a centre for multidisciplinary research across various scientific domains. HCJMRI also holds both
+            the 80G certification and the prestigious 35(i)(ii) certificate, enabling donors to claim maximum tax
+            exemptions.
+          </p>
+        </div>
+        <div class="col-md-6 text-center">
+          <div class="image-box">
+            <img src="img/j1.webp" alt="About HCJMRI" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-12">
+          <p class="about-full-width">
+            Our core research areas include Nutrition, Growth and Endocrine Disorders in Children, Type 1 Diabetes,
+            Maternal and Child Health, Osteoporosis, Bone Health, and other Non-Communicable Diseases.
+            <br>
+            A major part of our social initiative focuses on supporting children with Type 1 Diabetes and their
+            families. We provide medical assistance, diabetes education, personalized guidance, and regular health
+            monitoring through home and school visits, as well as follow-up calls. Families receive counseling on
+            diet and social issues during visits at home or at our center. In addition, we offer free medical
+            supplies such as insulin, glucometers, syringes, test strips, lancets, and also cover the cost of annual
+            pathology tests for these children.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!--  Main our Vision Section-->
+
+
+  <section class="about-section py-4" id="about">
+    <!-- Right Side - Text -->
+    <div class="container pt-4">
+      <div class="row justify-content-center">
+        <div class="col-md-0">
+          <h2 class="about-heading mb-4">
+            <i class="fas fa-star"></i>Our Vision</h2>
+
+          <!-- <div class="container pt-4">
+            <div class="row">
+              Left Side - Image
+              <section class="fullscreen-image-section">
+                <div class="image-box-3">
+                  <img src="img/8.jpg" alt="About HCJMRI" class="fullscreen-image">
+                </div>
+              </section> -->
+
+              <p>
+                At the Hirabai Cowasji Jehangir Medical Research Institute (HCJMRI), our vision is to enhance scientific
+                research and healthcare practices to improve quality of life, with a special focus on children and
+                families. We aspire to be a premier center for multidisciplinary research and compassionate care,
+                addressing key health issues through innovation, education, and collaboration.<br>
+                <br>
+                We believe that healthcare should be accessible, holistic, and proactive—integrating prevention with
+                comprehensive treatment. Our efforts are centered on critical areas such as child health, nutrition,
+                endocrine disorders, Type 1 Diabetes, maternal and child health, osteoporosis, and non-communicable
+                diseases. Through this focus, we aim to make a meaningful contribution to the medical field and public
+                health landscape.<br>
+                <br>
+                HCJMRI is dedicated to closing the gap between research and real-world healthcare by translating
+                scientific advancements into practical solutions that benefit vulnerable populations. We promote patient
+                and family education, active community engagement, and strong partnerships with healthcare professionals
+                to empower individuals in managing their health.<br>
+                <br>
+                Our ultimate vision is "Healthiness with Happiness"—promoting well-being through knowledge, care, and
+                enduring support for generations to come.
+            </div>
+          </div>
+        </div>
+  </section>
+
+
+  <!--  Main our mission Section-->
+
+
+  <section class="about-section py-4" id="about">
+    <div class="container pt-4">
+      <div class="row justify-content-center">
+        <div class="col-md-0">
+          <h2 class="about-heading mb-4">
+            <i class="fas fa-bullseye"></i> Our Mission
+          </h2>
+
+
+          <div class="container pt-4">
+            <div class="row">
+              <!-- <section class="fullscreen-image-section">
+                <div class="image-box-3">
+                  <img src="img/8.jpg" alt="About HCJMRI" class="fullscreen-image">
+                </div>
+              </section> -->
+
+              <p>
+                The Hirabai Cowasji Jehangir Medical Research Institute (HCJMRI) is dedicated to advancing health and
+                well-being through innovative research, exceptional clinical care, and meaningful community involvement.
+                Our mission is guided by four core pillars:<br>
+                <br>
+
+                <b>1. Advancing Scientific Research</b><br>
+                We are committed to conducting pioneering research that addresses pressing health concerns, with a
+                strong emphasis on pediatrics, maternal and child health, and non-communicable diseases. Our goal is to
+                produce evidence-based insights that shape healthcare policies and practices, ensuring that scientific
+                innovation translates into better patient outcomes.<br>
+                <br>
+
+                <b>2. Enhancing Patient Care and Well-being</b><br>
+                HCJMRI strives to improve the lives of children and families living with chronic conditions by offering
+                specialized care in areas such as Type 1 Diabetes, nutrition, and endocrine disorders. By integrating
+                research into clinical practice, we provide holistic and patient-centered care, supported by education
+                and long-term follow-up for both patients and their families.<br>
+                <br>
+
+                <b>3. Empowering Communities through Education</b><br>
+                We believe that informed individuals and engaged communities are key to better health. HCJMRI conducts
+                outreach and education programs across Pune and surrounding areas, equipping families with the knowledge
+                and tools needed to lead healthier lives. Our efforts aim to raise awareness, promote disease
+                prevention, and encourage proactive health management.<br>
+                <br>              
+
+                <b>4. Fostering Collaboration and Upholding Social Responsibility.</b><br>
+                Through partnerships with healthcare providers, academic institutions, and community organizations, we
+                embrace a collaborative, multidisciplinary approach to tackling complex health challenges. Our
+                commitment to social responsibility drives us to promote equitable, accessible healthcare and extend our
+                impact beyond research into real-world solutions.<br>
+                <br>
+
+                By aligning research, care, education, and collaboration, HCJMRI is working to create sustainable
+                improvements in healthcare and community well-being—building a healthier, more informed future for all.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+  <!-- Fotter Section Start Here -->
+
+  <footer class="site-footer">
+    <div class="footer-main">
+
+      <div class="footer-col footer-about">
+
+        <!-- <div class="footer-logo">
+          <img src="img/HCJ_trnsparent Logo.png" alt="HCJMRI Logo">
+        </div> -->
+
+        <p>
+          Hirabai Cowasji Jehangir Medical Research Institute<br>
+          Improving health through research and care.
+        </p>
+        <ul class="footer-contact">
+          <li><i class="fas fa-phone-alt"></i> 020-66811741 / 26057004</li>
+          <li><i class="fas fa-envelope"></i> hcjmri.jehangirpune@gmail.com</li>
+          <li><i class="fas fa-map-marker-alt"></i>Lower Ground Floor,
+Block V, Jehangir Hospital, 32 Sassoon Road, Pune</li>
+        </ul>
+      </div>
+      <!-- Column 2: Quick Links -->
+      <div class="footer-col footer-links">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="about hcjmri.html">About Us</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="publication.html">Publication</a></li>
+          <li><a href="donation appeals.html">Support Us</a></li>
+        </ul>
+      </div>
+      <!-- Column 3: Work Hours + Quote + Call -->
+      <div class="footer-col footer-hours">
+        <h5>Work Hours</h5>
+        <p><i class="fas fa-clock"></i> Mon – Sat: 9 AM – 5 PM</p>
+        <p>
+          “When a patient walks out holding a loved one's hand and wearing a smile, our purpose is fulfilled.”
+        </p>
+        <a href="contact us.html" class="footer-call-btn">Call Us Today</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Hirabai Cowasji Jehangir Medical Research Institute. All Rights Reserved.</p>
+      <p>
+        Designed by
+
+        <a href="https://github.com/priteshc-dev" target="_blank" rel="noopener">'Pritesh'</a>
+
+      </p>
+    </div>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+
+  <!-- Bootstrap Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Your custom script file -->
+  <script src="JavaScript/main.js"></script>
+
+</body>
+
+</html>

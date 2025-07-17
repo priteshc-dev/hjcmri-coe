@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HCJMRI</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="CSS/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="icon" type="img" href="img/HCJ Logo.jpg">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .navbar {
+      position: sticky !important;
+      top: 0;
+      z-index: 1030;
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .navbar.scrolled {
+      background-color: #fff !important;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Hero Section with Icon and Scrolling Text -->
+  <!-- <section id="home" class="hero-section d-flex align-items-center justify-content-center">
+    <div class="scrolling-text-wrapper">
+      <div class="scrolling-text">
+        <i class="fas fa-hospital"></i>
+        Welcome to Hirabai Cowasji Jehangir Medical Research Institute
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/HCJ_trnsparent Logo.png" alt="HCJMRI Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="about hcjmri.html">ABOUT HCJMRI</a></li>
+              <li><a class="dropdown-item" href="director mesage.html">DIRECTOR MESSAGE</a></li>
+              <li><a class="dropdown-item" href="commitee.html">COMMITTEE</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="sweetling page.html">SWEETLINGS</a></li>
+              <li><a class="dropdown-item" href="rihan page.html">RIHAN</a></li>
+              <li><a class="dropdown-item" href="mai project.html">MAI</a></li>
+              <li><a class="dropdown-item" href="ankur page.html">ANKUR</a></li>
+              <li><a class="dropdown-item" href="yuvaan project.html">YUVAAN COHORT</a></li>
+              <li><a class="dropdown-item" href="HCJMRI COE for Type 1 Diabetes.html">HCJMRI COE for Type 1 Diabetes</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Academics</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="research.html">RESEARCH</a></li>
+              <li><a class="dropdown-item" href="publication.html">PUBLICATION</a></li>
+              <li><a class="dropdown-item" href="events.html">EVENTS</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Tools</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="pwg calculator.html">Gestational Weight Gain Calculator</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link active" href="Success Stories.html">Success Stories</a></li>
+          <li class="nav-item"><a class="nav-link active" href="awards.html">Awards</a></li>
+          <li class="nav-item"><a class="nav-link active" href="career with us.html">Career with us</a></li>
+          <li class="nav-item"><a class="nav-link active" href="donation appeals.html">Donation Appeals</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact us.html">Contact Us</a></li>
+        </ul>
+
+        <div class="social-toggle-area">
+          <button class="social-toggle-btn btn" onclick="toggleSocialSidebar()">
+            <h5 class="mb-0">Social Media</h5>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div id="socialSidebar" class="social-sidebar right">
+    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+  </div>
+
+  <!-- Project Sweetling Regarding Page Section-->
+
+  <section class="about-section py-4" id="about">
+    <div class="container pt-4">
+      <div class="row justify-content-center">
+        <div class="col-md-0">
+          <h2 class="about-heading mb-4">
+            <i class="fas fa-users"></i> YUVAN COHORT
+          </h2>
+
+
+          <div class="container pt-4">
+            <div class="row">
+              <section class="fullscreen-image-section">
+                <div class="project-image-box">
+                  <img src="img/Yuvaan Cover Photo.jpg" alt="About HCJMRI" class="fullscreen-image">
+                </div>
+              </section>
+
+              <p style="text-align: center; font-size: 25px;"><strong> Young adolescents’ behaViour, musculoskeletAl
+                  heAlth, growth and Nutrition</strong></p>
+
+              <p>Today, more children are surviving into adulthood than ever before. The current generation of children
+                who have reached age five will enter adulthood by 2030, becoming the bearers of the Sustainable
+                Development Goals (SDGs). Their health and nutrition between ages 5 and 19 will have a lasting impact on
+                the development of future generations. </p>
+              <br>
+              <p>According to the Comprehensive National Nutrition Survey, one in five children aged 5 to 9 years is
+                stunted, highlighting ongoing malnutrition issues. Undernourished girls are at greater risk of becoming
+                short-statured mothers, leading to low-birth-weight and stunted children, thus perpetuating a cycle of
+                poor health and growth across generations. Both genetic and socio-demographic factors influence maternal
+                and child growth, creating a persistent cycle of undernutrition.</p>
+              <br>
+              <p>Adolescence is a crucial period for physical, mental, and social development, shaping lifelong health,
+                behaviors, and decision-making abilities. Investing in adolescent health and well-being yields benefits
+                not just in adolescence, but also in adulthood and for future generations.</p>
+              <br>
+              <p>Recognizing adolescence as a "window of opportunity" for improving nutrition and health outcomes, the
+                YUVAAN cohort study aims to examine the growth patterns—including anthropometry, bone mass, muscle mass,
+                and function—of rural young adolescents, and how these are linked to intergenerational nutritional
+                status over time. </p>
+              <br>
+              <strong> Goal: </strong>
+              <br>
+              <p>To investigate the growth trajectories of girls and boys aged 8 to 10 years in rural Maharashtra, and
+                to study how these indicators affect the size and health of their future children by following the
+                cohort until the offspring reach age five.</p>
+              <br>
+              <strong> Objectives:</strong>
+              <br>
+              <ul>
+                <li>● To track growth patterns (height and weight) in children and young adolescents aged 8 to 10 years
+                  in
+                  rural Maharashtra.</li>
+                <li>● To conduct a longitudinal study of bone mass, muscle mass, and functional development in this
+                  age
+                  group.</li>
+                <li>● To examine the relationship between intergenerational nutritional status, comparing children’s
+                  growth with their parents’ height and the body composition of their future offspring.</li>
+                <li>● To enhance Social and Behavioural Change Communication (SBCC) strategies that improve
+                  nutritional
+                  status by assessing and strengthening the knowledge, attitudes, and practices of children,
+                  adolescents, and their parents.</li>
+              </ul>
+              <br>
+              <strong>Follow up visits:</strong>
+              <br>
+              <ul>
+                <li>● Follow-up visits are scheduled every six months to record the children’s anthropometric
+                  measurements.</li>
+                <li>● Every fourth year, parents undergo anthropometric measurements.</li>
+                <li>● Approximately 500 children are followed up each month for their scheduled six-monthly and
+                  annual visits.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section><br>
+
+  <!-- Project Impact Section with Counter -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="row text-center justify-content-center">
+
+        <!-- Counter 1 -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+          <div class="stat-box">
+            <h3 class="counter" data-target="1098">0</h3>
+            <p>Families enrolled</p>
+          </div>
+        </div>
+
+        <!-- Counter 2 -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+          <div class="stat-box">
+            <h3 class="counter" data-target="1098">0</h3>
+            <p>Fathers enrolled</p>
+          </div>
+        </div>
+
+        <!-- Counter 3 -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+          <div class="stat-box">
+            <h3 class="counter" data-target="1098">0</h3>
+            <p>Mothers enrolled</p>
+          </div>
+        </div>
+
+        <!-- Counter 4 -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-4">
+          <div class="stat-box">
+            <h3 class="counter" data-target="1323">0</h3>
+            <p>Children enrolled</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="where-we-work-section">
+    <div class="row where-we-work">
+      <div class="col text-center">
+        <h3 class="about-heading mb-4"> <i class="fas fa-map-marker-alt"></i> Where We Work</h3>
+      </div>
+    </div>
+    <div class="row work-locations">
+      <!-- Place 1 -->
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="location-card">
+          <img src="img/Shirur map integration.jpg" alt="Location 1" class="location-image" />
+          <h4>Ranjangaon & Shirur Taluka</h4>
+          <p> We work in 14 villages around Ranjangaon village cluster and their nearby Wadis and Wastis in Shirur
+            taluka: </p>
+          <button class="btn btn-primary" onclick="showMap('pune')">See on the map</button>
+        </div>
+      </div>
+
+      <!-- Add any place -->
+    </div>
+    </div>
+
+    <!-- map view section -->
+    <div id="mapModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeMap()">&times;</span>
+        <iframe id="mapFrame" src="" width="100%" height="400" style="border:0;" allowfullscreen=""
+          loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Our Team Section Start -->
+  <section class="team-section">
+    <div class="row where-we-work">
+      <div class="col text-center">
+        <h3 class="about-heading mb-4"> <i class="fas fa-users"></i> Our Team </h3>
+        <h2 class="team-title"></h2>
+        <div class="team-grid">
+
+          <div class="team-card">
+            <img src="img/Team member img/Dr.Anuradha Khadilkar.jpg" alt="Member">
+            <div class="team-info">
+              <div class="team-name">Dr. Anuradha Khadilkar</div>
+              <div class="team-role">Deputy Director</div>
+            </div>
+          </div>
+
+          <div class="team-card">
+            <img src="img/Team member img/Sandhya Gaikwad.jpg" alt="Member">
+            <div class="team-info">
+              <div class="team-name">Mrs. Sandhya Gaikwad</div>
+              <div class="team-role">Project Manager - Social</div>
+            </div>
+          </div>
+
+          <div class="team-card">
+            <img src="img/Team member img/Dr. Chidvilas More.JPG" alt="Member">
+            <div class="team-info">
+              <div class="team-name">Dr. Chidvilas More</div>
+              <div class="team-role">Research Officer</div>
+            </div>
+          </div>
+
+          <div class="team-card">
+            <img src="img/Profile pic.jpg" alt="Member">
+            <div class="team-info">
+              <div class="team-name">Dr. Megha Shelar</div>
+              <div class="team-role">Medical Officer</div>
+            </div>
+          </div>
+
+          <div class="team-card">
+            <img src="img/Profile pic.jpg" alt="Member">
+            <div class="team-info">
+              <div class="team-name">Dr. Karishma Bhade</div>
+              <div class="team-role">Pediatrician</div>
+            </div>
+          </div>
+
+          <div class="team-card">
+            <img src="img/Profile pic.jpg" alt="Member">
+            <div class="team-info">
+              <div class="team-name">Dr. Niharika Shrivastava</div>
+              <div class="team-role">Pediatrician</div>
+            </div>
+          </div>
+
+          <div class="team-card">
+            <img src="img/Profile pic.jpg" alt="Member">
+            <div class="team-info">
+              <div class="team-name">Ms. Sharvani Patil</div>
+              <div class="team-role">Research Fellow</div>
+            </div>
+          </div>
+
+          <div class="team-card">
+            <img src="img/Profile pic.jpg" alt="Member">
+            <div class="team-info">
+              <div class="team-name">Ms. Urvashi Khade</div>
+              <div class="team-role">Research Assistant</div>
+            </div>
+          </div>
+
+          <div class="team-card">
+            <img src="img/Profile pic.jpg" alt="Member">
+            <div class="team-info">
+              <div class="team-name">Ms. Aditi Varagante</div>
+              <div class="team-role">Research Assistant</div>
+            </div>
+          </div>
+
+          <div class="team-card">
+            <img src="img/Profile pic.jpg" alt="Member">
+            <div class="team-info">
+              <div class="team-name">Mrs. Suman Shelake</div>
+              <div class="team-role">Technician and Field Worker</div>
+            </div>
+          </div>
+
+          <div class="team-card">
+            <img src="img/Profile pic.jpg" alt="Member">
+            <div class="team-info">
+              <div class="team-name">Mrs. Sangita Sonawane</div>
+              <div class="team-role">Technician and Field Worker</div>
+            </div>
+          </div>
+
+
+          <div class="team-card">
+            <img src="img/Profile pic.jpg" alt="Member">
+            <div class="team-info">
+              <div class="team-name">Mrs. Savita Jagdale</div>
+              <div class="team-role">Technician and Field Worker</div>
+            </div>
+          </div>
+
+
+          <div class="team-card">
+            <img src="img/Profile pic.jpg" alt="Member">
+            <div class="team-info">
+              <div class="team-name">Mrs. Jayashri Kshirsagar</div>
+              <div class="team-role">Field Worker</div>
+            </div>
+          </div>
+
+
+          <div class="team-card">
+            <img src="img/Profile pic.jpg" alt="Member">
+            <div class="team-info">
+              <div class="team-name">Mrs. Usha Thorat</div>
+              <div class="team-role">Field Worker</div>
+            </div>
+          </div>
+
+
+          <div class="team-card">
+            <img src="img/Profile pic.jpg" alt="Member">
+            <div class="team-info">
+              <div class="team-name">Mr. Kalpesh Jagtap</div>
+              <div class="team-role">Technician and Field Worker</div>
+            </div>
+          </div>
+
+
+          <div class="team-card">
+            <img src="img/Profile pic.jpg" alt="Member">
+            <div class="team-info">
+              <div class="team-name">Mrs. Supriya Shinde:</div>
+              <div class="team-role">Technician and Phlebologist</div>
+            </div>
+          </div>
+
+
+          <div class="team-card">
+            <img src="img/Profile pic.jpg" alt="Member">
+            <div class="team-info">
+              <div class="team-name">Mrs. Vidya Phand</div>
+              <div class="team-role">Phlebologist</div>
+            </div>
+          </div>
+
+
+          <div class="team-card">
+            <img src="img/Team member img/Anagha Deshmukh.jpeg" alt="Member">
+            <div class="team-info">
+              <div class="team-name">Mrs. Anagha Deshmukh</div>
+              <div class="team-role">Dietician</div>
+            </div>
+          </div>
+
+
+          <div class="team-card">
+            <img src="img/Team member img/Yogini Bhagat.jpg" alt="Member">
+            <div class="team-info">
+              <div class="team-name">Mrs. Yogini Daphal:</div>
+              <div class="team-role">Social Worker</div>
+            </div>
+          </div>
+
+
+          <div class="team-card">
+            <img src="img/Profile pic.jpg" alt="Member">
+            <div class="team-info">
+              <div class="team-name">Mr. Ravindra Mate</div>
+              <div class="team-role">Driver and Field Worker</div>
+            </div>
+          </div>
+
+
+          <div class="team-card">
+            <img src="img/Profile pic.jpg" alt="Member">
+            <div class="team-info">
+              <div class="team-name">Mrs. Lakshmi Shegokar</div>
+              <div class="team-role">Office Assistant</div>
+            </div>
+          </div>
+
+
+          <div class="team-card">
+            <img src="img/Profile pic.jpg" alt="Member">
+            <div class="team-info">
+              <div class="team-name">Mrs. Manda Sanap</div>
+              <div class="team-role">Office Assistant</div>
+            </div>
+          </div>
+
+          <!-- Add more cards as needed -->
+        </div>
+      </div>
+  </section>
+
+  <!-- Testimonials Section -->
+
+  <section class="testimonial-slider-section">
+    <div class="container">
+      <h2 class="testimonial-slider-heading">What people say about us</h2>
+      <div class="testimonial-slider">
+        <button class="slider-arrow left" aria-label="Previous">&#x2039;</button>
+        <div class="testimonial-slides">
+          <!-- Slide 1 -->
+
+          <div class="testimonial-slide active">
+            <p class="testimonial-slider-text">
+              I’m the father of a Cohort child from Sonesangvi. I often struggled with shortness of breath and didn’t
+              know I had high blood pressure. During a visit to the LG Center in Ranjangaon, a doctor from HCJMRI
+              diagnosed me with hypertension and started my treatment. Since then, my BP is under control and my
+              breathing has improved. I’m truly thankful to the doctor and the HCJMRI team for their excellent care.
+            </p>
+            <p class="testimonial-slider-author"></p>
+          </div>
+          <!-- Slide 2 -->
+
+          <div class="testimonial-slide">
+            <p class="testimonial-slider-text">
+              A child from Bhambarde village joined the COHORT program two years ago. Her father, a busy village leader
+              and businessman, was diagnosed along with his family during our health check-up. All three were
+              overweight, and the father had very high cholesterol levels. After following our doctor’s advice on diet
+              and exercise, his cholesterol and weight significantly reduced.
+              
+              The family now walks or cycles daily to their hotel and actively monitors their health. Both daughters
+              play badminton every evening with a racket gifted by HCJMRI, increasing their physical activity.
+              The father praised HCJMRI for its consistent follow-ups and said no other organization cares for
+              children's health the way HCJMRI does.
+            </p>
+            <p class="testimonial-slider-author"></p>
+          </div>
+          <!-- Slide 3 -->
+
+          <div class="testimonial-slide">
+            <p class="testimonial-slider-text">
+              During her child's annual check-up at the LG Health Centre, a mother expressed concern about her
+              daughter's poor appetite and slow growth. Initially looking for a quick solution with tonics, she was
+              guided by the HCJMRI team to focus on improving the child’s diet and physical activity.
+
+              After assessing the child’s low activity and unbalanced diet, and understanding the challenges of managing
+              a large family, the team provided practical nutrition advice suited to the family’s lifestyle. The mother
+              was convinced to shift from tonics to holistic care, and she appreciated the team’s support and guidance.
+            </p>
+            <p class="testimonial-slider-author"></p>
+          </div>
+          <!-- Slide 4 -->
+
+          <div class="testimonial-slide">
+            <p class="testimonial-slider-text">
+              A Cohort girl from Ganegaon was hospitalized due to a blood sugar issue, but her parents were unsure about
+              the diagnosis and next steps. On our advice, they revisited the doctor and learned that their daughter had
+              Type 1 Diabetes. Scared and confused, they came to the LG Centre, where our paediatric endocrinologist,
+              Dr. Anuradha Khadilkar, explained the condition in detail and guided them with the right steps, including
+              enrollment in the Sweetlings program at Jehangir Hospital.
+
+              Feeling reassured and informed, the parents said, “You showed us the right path. Our stress has reduced,
+              and we now know how to manage this condition.” They expressed heartfelt gratitude to the entire HCJMRI
+              team.
+            </p>
+            <p class="testimonial-slider-author"></p>
+          </div>
+          <!-- Slide 5 -->
+
+          <div class="testimonial-slide">
+            <p class="testimonial-slider-text">
+              A 58-year-old woman attended our health camp in Khandale village, where she was first diagnosed with
+              hypothyroidism and later with hyperthyroidism. She struggled with rapid weight loss, low confidence, and
+              social anxiety, and couldn’t even ride her two-wheeler. Our doctor referred her to Sassoon Hospital for
+              treatment.
+
+              Eight months later, she returned to the centre confidently riding her two-wheeler, having gained 5.8 kg
+              and showing signs of improvement. Her goitre had also slightly reduced. She was happy and grateful, and
+              her case highlights how our health camps help people recognize health issues and seek timely care.
+            </p>
+            <p class="testimonial-slider-author"></p>
+          </div>
+
+
+        </div>
+        <button class="slider-arrow right" aria-label="Next">&#x203A;</button>
+      </div>
+      <div class="testimonial-slider-dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <!-------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+  <!-- Fotter Section Start Here -->
+
+  <footer class="site-footer">
+    <div class="footer-main">
+
+      <div class="footer-col footer-about">
+
+        <!-- <div class="footer-logo">
+          <img src="img/HCJ_trnsparent Logo.png" alt="HCJMRI Logo">
+        </div> -->
+
+        <p>
+          Hirabai Cowasji Jehangir Medical Research Institute<br>
+          Improving health through research and care.
+        </p>
+        <ul class="footer-contact">
+          <li><i class="fas fa-phone-alt"></i> 020-66811741 / 26057004</li>
+          <li><i class="fas fa-envelope"></i> hcjmri.jehangirpune@gmail.com</li>
+          <li><i class="fas fa-map-marker-alt"></i>Lower Ground Floor,
+            Block V, Jehangir Hospital, 32 Sassoon Road, Pune</li>
+        </ul>
+      </div>
+      <!-- Column 2: Quick Links -->
+      <div class="footer-col footer-links">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="about hcjmri.html">About Us</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="publication.html">Publication</a></li>
+          <li><a href="donation appeals.html">Support Us</a></li>
+        </ul>
+      </div>
+      <!-- Column 3: Work Hours + Quote + Call -->
+      <div class="footer-col footer-hours">
+        <h5>Work Hours</h5>
+        <p><i class="fas fa-clock"></i> Mon – Sat: 9 AM – 5 PM</p>
+        <p>
+          “When a patient walks out holding a loved one's hand and wearing a smile, our purpose is fulfilled.”
+        </p>
+        <a href="contact us.html" class="footer-call-btn">Call Us Today</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Hirabai Cowasji Jehangir Medical Research Institute. All Rights Reserved.</p>
+      <p>
+        Designed by
+
+        <a href="https://github.com/priteshc-dev" target="_blank" rel="noopener">'Pritesh'</a>
+
+      </p>
+    </div>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+  <!-- Bootstrap Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Your custom script file -->
+  <script src="JavaScript/main.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      let currentSlide = 0;
+      const slides = document.querySelectorAll('.testimonial-slide');
+      const dots = document.querySelectorAll('.dot');
+      const totalSlides = slides.length;
+      let autoSlideInterval = null;
+      const slider = document.querySelector('.testimonial-slider');
+
+      function showSlide(index) {
+        slides.forEach((slide, i) => {
+          slide.classList.toggle('active', i === index);
+          dots[i].classList.toggle('active', i === index);
+        });
+        currentSlide = index;
+      }
+
+      function nextSlide() {
+        let next = (currentSlide + 1) % totalSlides;
+        showSlide(next);
+      }
+
+      function prevSlide() {
+        let prev = (currentSlide - 1 + totalSlides) % totalSlides;
+        showSlide(prev);
+      }
+
+      function startAutoSlide() {
+        stopAutoSlide();
+        autoSlideInterval = setInterval(nextSlide, 4000); // ४ सेकंदांनी slide बदलेल
+      }
+
+      function stopAutoSlide() {
+        if (autoSlideInterval) clearInterval(autoSlideInterval);
+      }
+
+      document.querySelector('.slider-arrow.left').addEventListener('click', () => {
+        prevSlide();
+        startAutoSlide();
+      });
+      document.querySelector('.slider-arrow.right').addEventListener('click', () => {
+        nextSlide();
+        startAutoSlide();
+      });
+
+      dots.forEach((dot, idx) => {
+        dot.addEventListener('click', () => {
+          showSlide(idx);
+          startAutoSlide();
+        });
+      });
+
+      slider.addEventListener('mouseenter', stopAutoSlide);   // hover केलं की auto-slide बंद
+      slider.addEventListener('mouseleave', startAutoSlide);  // hover बाहेर गेलं की सुरू
+
+      showSlide(0);
+      startAutoSlide();
+    });
+  </script>
+
+</body>
+
+</html>
