@@ -273,7 +273,8 @@ function showMap(location) {
   var mapUrls = {
     'pune': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50901.62997639402!2d73.85289969114342!3d18.515960739362427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c05816d29283%3A0xfe98c3452724e113!2sJehangir%20Hospital!5e0!3m2!1sen!2sin!4v1752229271906!5m2!1sen!2sin', // Pune Map URL
     'kolhapur': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15286.229631435108!2d74.23821036361056!3d16.69901697276099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc10041936bb903%3A0x7e99f80ef61451c3!2sRevolution!5e0!3m2!1sen!2sin!4v1752229415673!5m2!1sen!2sin', // Kolhapur Map URL
-    'nagpur': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40903.344451505756!2d79.06174915838056!3d21.139751563215693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c1faf48bfda9%3A0x616423bbbcdd76e9!2sSilver%20lining%20Pediatric%20Super%20Speciality%20Center%20for%20Growth%20Development%20Endocrine%20Care!5e0!3m2!1sen!2sin!4v1752229322785!5m2!1sen!2sin' // Nagpur Map URL
+    'nagpur': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40903.344451505756!2d79.06174915838056!3d21.139751563215693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c1faf48bfda9%3A0x616423bbbcdd76e9!2sSilver%20lining%20Pediatric%20Super%20Speciality%20Center%20for%20Growth%20Development%20Endocrine%20Care!5e0!3m2!1sen!2sin!4v1752229322785!5m2!1sen!2sin', // Nagpur Map URL
+    'ranjangaon': 'https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d277413.90739234263!2d74.13539428834277!3d18.7256879638421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m5!1s0x3bc32965fc56b245%3A0xe2d82837be6df72b!2sRanjangaon%20MIDC%2C%20Maharashtra%20412220!3m2!1d18.7826998!2d74.2795524!4m0!5e1!3m2!1sen!2sin!4v1753261946704!5m2!1sen!2sin' //Ranjangaon Map URL
   };
   document.getElementById('mapFrame').src = mapUrls[location];
   document.getElementById('mapModal').style.display = 'block';
