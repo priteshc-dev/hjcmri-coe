@@ -47,7 +47,8 @@ HCJMRI was established in 1995 to advance scientific research and improve the qu
 
 > Improving health through research and care.
 
-## 🖼️ Website Preview
+## 🌐 Website Preview
 
-![HCJMRI Website Logo](img/HCJ_trnsparent Logo.png)
+![HCJMRI Website Logo](img/HCJ_trnsparent_Logo.png)
+
 
