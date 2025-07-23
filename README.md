@@ -43,12 +43,8 @@ HCJMRI was established in 1995 to advance scientific research and improve the qu
 - **Location:** Lower Ground Floor, Block V, Jehangir Hospital, 32 Sassoon Road, Pune
 - **Website designed & maintained by:** [Pritesh](https://github.com/priteshc-dev)
 
----
+-------
 
-> Improving health through research and care.
 
-## 🌐 Website Preview
-
-![HCJMRI Website Logo](img/HCJ_trnsparent_Logo.png)
 
 
