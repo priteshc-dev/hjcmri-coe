@@ -2692,7 +2692,6 @@ body {
   font-size: 32px;
   font-weight: 700;
   position: relative;
-  display: inline-block;
   animation: zoomIn 0.8s ease-in-out forwards;
   transform-origin: center;
 }
