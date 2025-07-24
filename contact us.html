@@ -215,35 +215,23 @@
   </section>
 
 <!-- 🔹 Contact Form Section (overlapping image bottom) -->
-<section class="contact-form-section">
-  <div class="contact-form-container">
-    <h2>We’d Love to Hear from You</h2>
+<form action="https://api.web3forms.com/submit" method="POST">
+  
+  <!-- YOUR ACCESS KEY -->
+  <input type="hidden" name="access_key" value="b66e7a50-ac07-465a-aa56-0f0298393e96">
 
-    <form action="https://formsubmit.io/send/priteshc2803@gmail.com" method="POST">
-      <!-- Hidden spam protection -->
-      <input name="_formsubmit_id" type="text" style="display:none">
-
-      <!-- Optional redirect -->
-      <input name="_redirect" type="hidden" value="https://priteshc-dev.github.io/hjcmri-coe/thank-you.html">
-
-      <div class="form-group">
-        <input type="text" name="name" placeholder="Your Name" required>
-      </div>
-      <div class="form-group">
-        <input type="email" name="email" placeholder="Your Email" required>
-      </div>
-      <div class="form-group">
-        <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
-      </div>
-      <button type="submit">Send Message</button>
-    </form>
+  <div class="form-group">
+    <input type="text" name="name" placeholder="Your Name" required>
   </div>
-</section>
-
-
-
-
-
+  <div class="form-group">
+    <input type="email" name="email" placeholder="Your Email" required>
+  </div>
+  <div class="form-group">
+    <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+  </div>
+  <button type="submit">Send Message</button>
+</form>
+        
   <!-------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
   <!-- Fotter Section Start Here -->
