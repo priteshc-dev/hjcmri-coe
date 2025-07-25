@@ -38,7 +38,7 @@ const startDate = new Date("2025-07-25");
 const endDate = new Date("2025-08-20");
 const today = new Date();
 // ✅ URL check to ensure it's index.html
-const isHomePage = window.location.pathname.endsWith("index.html") || window.location.pathname === "/" || window.location.pathname === "/HCJMRI/" || window.location.pathname === "/index.html";
+const isHomePage = window.location.pathname.endsWith("index.html") || window.location.pathname === "/" || window.location.pathname === "/hcjmri-coe/" || window.location.pathname === "/index.html";
 
 if (today >= startDate && today <= endDate && isHomePage) {
   const vacancySidebar = document.createElement('a');
