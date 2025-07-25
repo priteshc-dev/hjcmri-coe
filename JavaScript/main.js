@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // Vacancy Sidebar - Visible only during specified date and only on index.html -----------------------------------------------------//
 
 const startDate = new Date("2025-06-01");
-const endDate = new Date("2025-07-20");
+const endDate = new Date("2025-08-20");
 const today = new Date();
 // ✅ URL check to ensure it's index.html
 const isHomePage = window.location.pathname.endsWith("index.html") || window.location.pathname === "/" || window.location.pathname === "/HCJMRI/" || window.location.pathname === "/index.html";
