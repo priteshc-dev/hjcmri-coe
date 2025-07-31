@@ -486,8 +486,8 @@ document.addEventListener("DOMContentLoaded", function () {
       datasets: [{
         label: "Number of Publications",
         data: Object.values(publicationCounts),
-        backgroundColor: "rgba(54, 162, 235, 0.6)",
-        borderColor: "rgba(54, 162, 235, 1)",
+        backgroundColor: "rgba(37, 228, 212, 0.6)",
+        borderColor: "#9518e9ff",
         borderWidth: 1,
       }],
     },
