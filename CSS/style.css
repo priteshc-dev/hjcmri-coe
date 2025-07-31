@@ -3897,12 +3897,19 @@ input#searchInput {
 }
 
 .badge {
-  padding: 5px 10px;
-  background-color: #6c757d;
-  color: white;
+  display: block;              
+  padding: 12px 15px;
+  background-color: hwb(0 79% 21%);  
+  color: lch(27.68% 2.72 19.78);
   font-size: 14px;
-  border-radius: 20px;
+  border-radius: 12px;
+  white-space: normal;          
+  word-break: break-word;      
+  text-align: left;             
+  line-height: 1.6;             
+  margin-top: 10px;             
 }
+
 
 /* -------------------------------- Award Section CSS ------------------------------------*/
 
