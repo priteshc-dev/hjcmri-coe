@@ -4134,37 +4134,38 @@ Block V, Jehangir Hospital, 32 Sassoon Road, Pune</li>
   <!-- JS for Chart + Collapse Logic -->
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-      const yearBlocks = document.querySelectorAll(".year-block");
-      const publicationCounts = {};
+  const yearBlocks = document.querySelectorAll(".year-block");
+  const publicationCounts = {};
 
-      yearBlocks.forEach((block) => {
-        const year = block.getAttribute("data-year");
-        const publications = block.querySelectorAll(".card-publication");
-        publicationCounts[year] = publications.length;
-      });
+  yearBlocks.forEach((block) => {
+    const year = block.getAttribute("data-year");
+    const publications = block.querySelectorAll(".card-publication");
+    publicationCounts[year] = publications.length;
+  });
 
-      const ctx = document.getElementById("publicationChart").getContext("2d");
-      new Chart(ctx, {
-        type: "bar",
-        data: {
-          labels: Object.keys(publicationCounts),
-          datasets: [{
-            label: "Number of Publications",
-            data: Object.values(publicationCounts),
-            backgroundColor: "rgba(54, 162, 235, 0.6)",
-            borderColor: "rgba(54, 162, 235, 1)",
-            borderWidth: 1,
-          }],
-        },
-        options: {
-          scales: {
-            y: {
-              beginAtZero: true,
-              precision: 0
-            }
-          }
+  const ctx = document.getElementById("publicationChart").getContext("2d");
+  new Chart(ctx, {
+    type: "bar",
+    data: {
+      labels: Object.keys(publicationCounts),
+      datasets: [{
+        label: "Number of Publications",
+        data: Object.values(publicationCounts),
+        backgroundColor: "rgba(37, 228, 212, 0.6)",
+        borderColor: "#9518e9ff",
+        borderWidth: 1,
+      }],
+    },
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true,
+          precision: 0
         }
-      });
+      }
+    }
+  });
+
 
       // Ensure only one collapse open at a time
       document.querySelectorAll('[data-bs-toggle="collapse"]').forEach(button => {
