@@ -26,6 +26,38 @@
             background-color: #fff !important;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
+                 /* (NHRC Regarding Css) */
+        
+        .pdf-card {
+            max-width: 550px;
+            margin: 50px auto;
+        }
+
+        .pdf-link {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .card-content {
+            padding: 10px;
+            border: 2px solid hsl(184, 39%, 32%);
+            background: linear-gradient(45deg, hsl(170, 100%, 74%), hsl(189, 97%, 76%));
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+            transition: transform .18s ease, box-shadow .18s ease;
+            cursor: pointer;
+            text-align: center;
+            white-space: normal;
+            word-break: break-word;
+        }
+
+
+        .card-content:hover {
+            transform: translateY(0px);
+            box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
+        }
     </style>
 </head>
 
@@ -263,6 +295,14 @@
     </div> -->
     </section>
 
+    <section class="pdf-card">
+        <a href="pdf-file/NHRC-2025_E-Proceedings.pdf" download="NHRC_2025_E-Proceeding.pdf" class="pdf-link">
+            <div class="card-content">
+                <h3>NHRC_2025 E-Proceedings</h3>
+            </div>
+        </a>
+    </section>
+
     <!-- Lightbox container -->
     <div id="lightbox" onclick="closeLightbox()">
         <img id="lightbox-img" src="">
@@ -358,5 +398,6 @@ Block V, Jehangir Hospital, 32 Sassoon Road, Pune</li>
 
 
 </body>
+
 
 </html>
